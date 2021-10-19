@@ -1,0 +1,135 @@
+How to scrape from https://github.com/quacs/quacs-data:
+
+//=| ./semester_data/`YEAR`__/... |=//
+
+//==>> catalog.json
+
+{ 
+  `name`: {
+    "subj": `SUBJECT` -> "department"
+    "crse": `COURSE ID` -> "id_num"
+    "name": `COURSE NAME` -> "title"
+    "description": `COURSE DESCRIPTION` -> "description"
+  }
+  ...
+}
+
+//==>> courses.json
+
+[
+  {
+    "name": PROGRAM NAME ->
+    "code": PROGRAM CODE
+    "courses": [
+      { 
+        "crse": COURSE ID
+        "sections": [
+          "crn": CRN CODE
+          { 
+            "credMin": MINIMUM CREDIT ALLOWED -\
+            "credMax": MAXIMUM CREDIT ALLOWED -+-> "credits"
+          }
+          ...
+        ]
+      }
+      ...
+    ]
+  }
+  ...
+]
+
+//==>> prerequisites.json
+
+{
+  `CLASS CRN`: {
+    "prerequisites": {
+      "type": "course" || "or" || "and"
+      "nested": [] || "course": SUBJECT-ID
+    }
+    "field_of_study": {
+      "must_be": {
+        FULL NAME
+      }
+    }
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+      "major": {
+        "must_be": [
+          FULL NAME
+        ]
+      }
+      "classification": {
+        "must_be": {
+          "Freshman" ||
+          "Sophomore" ||
+          "Junior" ||
+          "Senior" ||
+          "Graduate Student" ||
+        }
+        "may_not_be": {
+          "Freshman" ||
+          "Sophomore" ||
+          "Junior" ||
+          "Senior" ||
+          "Graduate Student"
+        }
+      }
+    }
+  }
+  ...
+}
+
+//==>> hass_pathways.json
+
+{
+  `PATHWAY NAME`: {
+    "desription"
+    
+  }
+  ...
+}
+
+How to store the data that we get:
+[
+  {
+    "title": -
+    "crns": [`CRN`...]
+    "department": -
+    "id_num": -
+    "credits": `cred` || 'credMin'-'credMax'
+    "ci": false,
+    "description": -
+    "offered": -
+    "prereq": [
+      "`SUBJECT` `ID`"
+      ...
+    ],
+    "coreq": [
+      "`SUBJECT` `ID`"
+      ...
+    ],
+    "cross": [
+      "`SUBJECT` `ID`"
+      ...
+    ],
+    "required-by": {
+      "major": [`SUBJECT`...]
+      "minor": [`SUBJECT`...]
+      "hass": [`SUBJECT`...]
+    },
+    "transfer": [
+      {
+        "school": -
+        "location": -
+        "title": -
+        "id": -
+      }
+      ...
+    ]
+  }
+  ...
+]
