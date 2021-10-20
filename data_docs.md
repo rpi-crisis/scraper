@@ -18,9 +18,9 @@ The data for CRISIS are stored as a dictionary, where each key is a combination 
 | `"coreq"`       | List of corequisite courses. | `["MATH 1002", "MATH 1003"]` |
 | `"cross"`       | List of cross-listed classes. | `["CSCI 0123", "PSYC 4567"]` |
 | `"required_by"` | Contains course requirements for major, minor, etc.
-| |`"minor"` List of minors which require a course. | `["MATH", "GSAS"]` |
-| |`"major"` List of majors which require a course. | `["CSCI", "COGS"]` |
-| | `"hass"` List of HASS pathways that require a course. | `["Artificial Intelligence", "Mind, Brain, and Intelligence"]` |
+| |`"minor"` List of minors which require this course. | `["MATH", "GSAS"]` |
+| |`"major"` List of majors which require this course. | `["CSCI", "COGS"]` |
+| | `"hass"` List of HASS pathways that require this course. | `["Artificial Intelligence", "Mind, Brain, and Intelligence"]` |
 | `"transfer"` | A list of courses which can be redeemed when transferring to RPI. | |
 | | `"school"` Name of the college. | `"Univ Texas Austin"` |
 | | `"location"` Location of the college. | `"Texas"` |
@@ -29,54 +29,51 @@ The data for CRISIS are stored as a dictionary, where each key is a combination 
 
 ## Example Template
 ```
-[
-  "MATH-1010": {
-    "title": "CALCULUS I",
-    "department": "MATH",
-    "id_num": 1010,
-    "credits": "4.0",
-    "ci": false,
-    "description": "Functions, limits, continuity, derivatives, implicit differentiation, related rates, maxima and minima, elementary transcendental functions, introduction to definite integral with applications to area and volumes of revolution.",
-    "offered": "Fall and spring terms annually.",
-    "prereq": [
-      "MATH 1000",
-      "MATH 1001"
+"MATH-1010": {
+  "title": "CALCULUS I",
+  "department": "MATH",
+  "id_num": 1010,
+  "credits": "4.0",
+  "ci": false,
+  "description": "Functions, limits, continuity, derivatives, implicit differentiation, related rates, maxima and minima, elementary transcendental functions, introduction to definite integral with applications to area and volumes of revolution.",
+  "offered": "Fall and spring terms annually.",
+  "prereq": [
+    "MATH 1000",
+    "MATH 1001"
+  ],
+  "coreq": [
+    "MATH 1002",
+    "MATH 1003"
+  ],
+  "cross": [
+    "CSCI 0123",
+    "PSYC 4567"
+  ],
+  "required-by": {
+    "major": [
+      "MATH",
+      "GSAS"
     ],
-    "coreq": [
-      "MATH 1002",
-      "MATH 1003"
+    "minor": [
+      "CSCI",
+      "COGS"
     ],
-    "cross": [
-      "CSCI 0123",
-      "PSYC 4567"
-    ],
-    "required-by": {
-      "major": [
-        "MATH",
-        "GSAS"
-      ],
-      "minor": [
-        "CSCI",
-        "COGS"
-      ],
-      "hass": []
-    },
-    "transfer": [
-      {
-        "school": "Univ of Connecticut",
-        "location": "Connecticut",
-        "title": "CALCULUS I",
-        "id": "MATH 1131Q"
-      },
-      {
-        "school": "Univ Of New Haven",
-        "location": "Connecticut",
-        "title": "CALCULUS I",
-        "id": "M 117"
-      }
-    ]
+    "hass": []
   },
-  ...
+  "transfer": [
+    {
+      "school": "Univ of Connecticut",
+      "location": "Connecticut",
+      "title": "CALCULUS I",
+      "id": "MATH 1131Q"
+    },
+    {
+      "school": "Univ Of New Haven",
+      "location": "Connecticut",
+      "title": "CALCULUS I",
+      "id": "M 117"
+    }
+  ]
 }
 ```
 
@@ -85,7 +82,7 @@ The data for CRISIS are stored as a dictionary, where each key is a combination 
 "NULL-0000": {
   "title": "",
   "department": "",
-  "id_num": 1000,
+  "id_num": 0000,
   "credits": "0.0",
   "ci": false,
   "description": "",
