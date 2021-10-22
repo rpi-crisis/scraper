@@ -6,7 +6,7 @@ op = webdriver.ChromeOptions()
 op.add_argument('headless')
 
 PATH = "C:\Program Files (x86)\chromedriver.exe" #path on your machine
-driver = webdriver.Chrome(PATH,options=op)
+driver = webdriver.Chrome(PATH, options=op)
 
 url = "http://catalog.rpi.edu/content.php?catoid=22&navoid=542"
 
@@ -30,7 +30,7 @@ for li in table_li: #grab the text and the link in the li element
     program_links.append(li.find('a')['href'])
 
 dictionary = {} #our json object
-bug_programs = ["Architecture", "Biology", "Business Analytics", "Cognitive Science", "Communication Media, and Design"]
+bug_programs = ["Physician-Scientist", "Program for Graduates of Naval Nuclear Power Training Command’s Nuclear Power School"]
 for program in program_names:
     print(program)
     if program not in bug_programs:
@@ -39,18 +39,24 @@ for program in program_names:
         source_link = driver.page_source
         soup_link = BeautifulSoup(source_link, "html.parser")
 
+        #print(soup_link.find_all())
         #there are two tables in the html, we need to find the second one
         td = soup_link.find('td', {'class': 'block_content'})
         table = td.find('table', {'class': 'table_default'})
         tbody = table.find('tbody')
         #we need to get the second table row, first one is a header
         tr = tbody.find_all('tr')[3]
+        print(len(tr))
         #tr = tr[1]; # the second tr
         #there is one td in the tr that holds all the data
         #analog core class is the year
         #custom leftpad 20 has the contents of the of that year
         #within the leftpad20 class are two analog core classes that have each semester
         td_new = tr.find('td', {'colspan': '4'})
+        if (not td_new):
+            tr = tbody.find_all('tr')[4]
+            td_new = tr.find('td', {'colspan': '4'})
+        
         div = td_new.find('div', class_='custom_leftpad_20')
         leftpad20 = div.find_all('div', class_='custom_leftpad_20')[:4]#first 4 years, can be adjusted
         terms_dict = []
@@ -58,7 +64,9 @@ for program in program_names:
             #there will be two analog core
             analog_core = term.find_all('div', class_='acalog-core') #there should be 2, fall and spring
             for sem in analog_core:
-                term_text = sem.find('h3').text #fall or spring
+                term_text = ""
+                if sem.find('h3'):
+                    term_text = sem.find('h3').text #fall or spring
                 #print(sem.find('h3').text)
                 #within the analog core there are two ul
                 ul = sem.find_all('ul')
@@ -77,10 +85,10 @@ for program in program_names:
                         linked.append(l.text)
                     terms_dict.append(linked_text)
         dictionary[program] = terms_dict
-                #the second ul has all the required classes hyperlinked
+                        #the second ul has all the required classes hyperlinked
         driver.back()
 driver.close()
-#driver.close()
+        #driver.close()
 json_obj = json.dumps(dictionary, indent=4)
 with open("sample.json", "w") as outfile:
     outfile.write(json_obj)
