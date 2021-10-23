@@ -2,6 +2,13 @@ import requests as rq, json, re
 from bs4 import BeautifulSoup as bs
 
 
+# Scrapes the degrees off of the RPI Catalog.
+# AUTHOR: Max Hutz <hutzm@rpi.edu>
+
+
+################################################################################
+
+
 def parse_table_rows(out, rows):
   school = ""
   
@@ -46,29 +53,32 @@ def parse_table_rows(out, rows):
       out[school] = []
 
 
+def parse_site():
+  # Get HTML from website.
+  degrees_website = "http://catalog.rpi.edu/content.php?catoid=22&navoid=525"
+  degrees_html = rq.get(degrees_website).text
+  soup = bs(degrees_html, 'html.parser')
+
+  # Find the table with all of the data in it.
+  table = soup.find_all("table", {
+    "border": "0",
+    "cellpadding": "0",
+    "cellspacing": "0",
+    "style": "border-collapse:collapse; height:2027px; width:863px"
+  })[0] # There is only one table exactly like this one.
+
+  # The first row is just the table header.
+  table_rows = table.tbody.find_all("tr", recursive=False)[1:]
+
+  data = {}
+  parse_table_rows(data, table_rows)
+  return data
+
+
 ################################################################################
 
-
-# Get HTML from website.
-degrees_website = "http://catalog.rpi.edu/content.php?catoid=22&navoid=525"
-degrees_html = rq.get(degrees_website).text
-soup = bs(degrees_html, 'html.parser')
-
-# Find the table with all of the data in it.
-table = soup.find_all("table", {
-  "border": "0",
-  "cellpadding": "0",
-  "cellspacing": "0",
-  "style": "border-collapse:collapse; height:2027px; width:863px"
-})[0] # There is only one table exactly like this one.
-
-# The first row is just the table header.
-table_rows = table.tbody.find_all("tr", recursive=False)[1:]
-
-# Parse the data.
-data = {}
-parse_table_rows(data, table_rows)
-
-# Output to file.
-out = open("out.json", "w")
-json.dump(data, out)
+if __name__ == '__main__':
+  data = parse_site()
+  # Output to file.
+  out = open("out.json", "w")
+  json.dump(data, out)
