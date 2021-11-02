@@ -31,9 +31,12 @@ for li in table_li: #grab the text and the link in the li element
 
 dictionary = {} #our json object
 bug_programs = ["Physician-Scientist", "Program for Graduates of Naval Nuclear Power Training Command’s Nuclear Power School"]
-for program in program_names:
-    print(program)
+for program in program_names[:4]:
+    #print(program)
+    
     if program not in bug_programs:
+        i = 1
+        years = {}
         driver.find_element_by_link_text(program).click()
         #now we are in the link for each program
         source_link = driver.page_source
@@ -59,11 +62,16 @@ for program in program_names:
         
         div = td_new.find('div', class_='custom_leftpad_20')
         leftpad20 = div.find_all('div', class_='custom_leftpad_20')[:4]#first 4 years, can be adjusted
-        terms_dict = []
+        
         for term in leftpad20:
+            
+            terms_dict = {}
             #there will be two analog core
             analog_core = term.find_all('div', class_='acalog-core') #there should be 2, fall and spring
+            
+            #print(year_num)
             for sem in analog_core:
+                year_num = str(i)
                 term_text = ""
                 if sem.find('h3'):
                     term_text = sem.find('h3').text #fall or spring
@@ -76,18 +84,29 @@ for program in program_names:
                 li = nonlinked.find_all('li')
                 for l in li:
                     nonlinked_text.append(l.text)
-                terms_dict.append(nonlinked_text) 
+                terms_dict[term_text]= []
+                ##terms_dict[term_text].append(nonlinked_text)
+                linked_text = [] 
                 if(len(ul) > 1):
                     linked = ul[1]
-                    linked_text = []
                     li_linked = linked.find_all('li')
                     for l in li_linked:
-                        linked.append(l.text)
-                    terms_dict.append(linked_text)
-        dictionary[program] = terms_dict
+                        linked_text.append(l.text)
+                all_classes = []
+                for l in nonlinked_text:
+                    all_classes.append(l)
+                for l in linked_text:
+                    all_classes.append(l)
+                terms_dict[term_text].append(all_classes)
+                #print(all_classes)
+                    ##terms_dict[term_text].append(linked_text)
+            years[year_num] = terms_dict
+            i+=1
+        dictionary[program] = years
                         #the second ul has all the required classes hyperlinked
         driver.back()
 driver.close()
+#print(dictionary)
         #driver.close()
 json_obj = json.dumps(dictionary, indent=4)
 with open("sample.json", "w") as outfile:
