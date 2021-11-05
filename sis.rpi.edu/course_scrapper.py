@@ -9,9 +9,8 @@ import requests as rq, json
 from bs4 import BeautifulSoup as bs
 
 headerss = {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
-                 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 \
-                         Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
+                AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
 }
 
 search_data = {
@@ -38,13 +37,18 @@ search_data = {
         'sel_attr': '%'
 }
 
-# currently non-functional
+# accesses each search correctly
+# still needs to obtain data from each search
 with rq.Session() as s:
-        url = 'https://sis.rpi.edu/rss/bwckctlg.p_display_courses'
-        r = s.get(url, headers=headerss)
-        soup = bs(r.content,'html.parser')
-        searches = soup.find('select', attrs={'name':'sel_subj'}).findAll('option')
-        allSearches = searches.findAll('option')['value']
-        search_data['sel_subj'] = soup.find('select', attrs={'name':'sel_subj'})
-        r = s.post(url, data=search_data, headers=headerss)
+        url = 'https://sis.rpi.edu/rss/bwckctlg.p_display_courses?term_in=202101&sel_crse_strt=0&sel_crse_end=9999&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr='
+        r = rq.get(url, headers=headerss)
+        soup = bs(r.text, 'html.parser')
+        value = soup.find('select', {"name": "sel_subj"})
+        value = value.findAll('option', recursive = False)
+        searches = []
+        for option in value:
+                searches.append(option['value'])
+        for search in searches:
+                search_data['sel_subj'] = search
+                r = s.post(url, data=search_data, headers=headerss)
         print(r.content)
