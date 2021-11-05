@@ -31,7 +31,7 @@ for li in table_li: #grab the text and the link in the li element
 
 dictionary = {} #our json object
 bug_programs = ["Physician-Scientist", "Program for Graduates of Naval Nuclear Power Training Command’s Nuclear Power School"]
-for program in program_names[:4]:
+for program in program_names:
     #print(program)
     
     if program not in bug_programs:
@@ -97,6 +97,11 @@ for program in program_names[:4]:
                     all_classes.append(l)
                 for l in linked_text:
                     all_classes.append(l)
+                for k in range(len(all_classes)):
+                    all_classes[k] = all_classes[k].replace("\u00a0", " ")
+                    all_classes[k] = all_classes[k].replace("\n\t", " ")
+                    l = [char for char in all_classes[k] if char.isalnum() or char == " " or char == "-" or char == ":" or char == ","]
+                    all_classes[k] = "".join(l)
                 terms_dict[term_text].append(all_classes)
                 #print(all_classes)
                     ##terms_dict[term_text].append(linked_text)
