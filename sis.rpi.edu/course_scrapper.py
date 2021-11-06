@@ -40,15 +40,27 @@ search_data = {
 # accesses each search correctly
 # still needs to obtain data from each search
 with rq.Session() as s:
-        url = 'https://sis.rpi.edu/rss/bwckctlg.p_display_courses?term_in=202101&sel_crse_strt=0&sel_crse_end=9999&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr='
+        url = 'https://sis.rpi.edu/rss/bwckctlg.p_display_courses?term_in=202109&sel_crse_strt=0&sel_crse_end=9999&sel_subj=&sel_levl=&sel_schd=&sel_coll=&sel_divs=&sel_dept=&sel_attr='
         r = rq.get(url, headers=headerss)
         soup = bs(r.text, 'html.parser')
         value = soup.find('select', {"name": "sel_subj"})
         value = value.findAll('option', recursive = False)
+
+        courses = {}
         searches = []
         for option in value:
                 searches.append(option['value'])
         for search in searches:
                 search_data['sel_subj'] = search
                 r = s.post(url, data=search_data, headers=headerss)
-        print(r.content)
+                innerSoup = bs(r.text,'html.parser')
+                value = soup.find('tbody')
+                class_title = soup.find_all('td', attrs={'class':'nttitle'})
+                class_info = soup.find_all('td', attrs={'class':'ntdefault'})
+                # fix that ^^^^
+                '''
+                As of right now, this will get relevant information in each of 
+                the searches possible. The next step is to only collect data that
+                has a link under the type of class, then gather data from that 
+                particular link.
+                '''
