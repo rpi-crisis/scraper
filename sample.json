@@ -108,7 +108,7 @@
             ],
             "Spring Semester (17 credits)": [
                 [
-                    "HASS Core Elective  Credit Hours: 4",
+                    "HASS Core Elective Credit Hours: 4",
                     "ENGR 2600 - Modeling and Analysis of Uncertainty Credit Hours: 3",
                     "MANE 2110 - Numerical Methods and Programming for Engineers Credit Hours: 3",
                     "MANE 2720 - Fluid Mechanics Credit Hours: 3",
@@ -127,7 +127,7 @@
             ],
             "Fall or Spring Semester (16 credits)": [
                 [
-                    "Free Elective Credit Hours: 4 ",
+                    "Free Elective Credit Hours: 4",
                     "STSS 4100 Professional Development II Credit Hours: 2",
                     "MANE 4500 - Modeling and Control of Dynamic Systems Credit Hours: 3",
                     "MANE 4900 - Aeroelasticity and Structural Vibrations Credit Hours: 3",
@@ -139,7 +139,7 @@
         "4": {
             "Fall Semester (16 credits)": [
                 [
-                    "MANE 4 Computation Elective Credit Hours: 3 ",
+                    "MANE 4 Computation Elective Credit Hours: 3",
                     "MANE 4 Flight Mechanics Elective Credit Hours: 4",
                     "Free Elective Credit Hours: 4",
                     "MANE 4080 - Propulsion Systems Credit Hours: 3",
@@ -465,7 +465,7 @@
         "1": {
             "Fall": [
                 [
-                    " HASS Elective Credit Hours:4",
+                    "HASS Elective Credit Hours:4",
                     "CHEM 1100 - Chemistry I Credit Hours: 4",
                     "ENGR 1100 - Introduction to Engineering Analysis Credit Hours: 4",
                     "ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1",
@@ -504,8 +504,8 @@
         "3": {
             "The Arch Summer Semester*": [
                 [
-                    "HASS Elective - Credit Hours:  4",
-                    "Free Elective  - Credit Hours: 3",
+                    "HASS Elective - Credit Hours: 4",
+                    "Free Elective - Credit Hours: 3",
                     "BMED 4200 - Modeling of Biomedical Systems Credit Hours: 3",
                     "BMED 4250 - Biomedical Transport Phenomena Credit Hours: 4",
                     "ENGR 4010 - Professional Development: Leadership Competencies Credit Hours: 1"
@@ -516,7 +516,7 @@
                     "BME Tech Elective I - Credit Hours: 3",
                     "Free Elective - Credit Hours: 3",
                     "BMED 4500 - Advanced Systems Physiology Credit Hours: 4",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2",
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2",
                     "ENGR 2050 - Introduction to Engineering Design Credit Hours: 4"
                 ]
             ]
@@ -524,7 +524,7 @@
         "4": {
             "Fall": [
                 [
-                    "BME Tech Elective II - Credit Hours: 3 ",
+                    "BME Tech Elective II - Credit Hours: 3",
                     "Free Elective- Credit Hours: 3",
                     "HASS Elective - Credit Hours: 4",
                     "BMED 4010 - Biomedical Engineering Laboratory Credit Hours: 4",
@@ -535,8 +535,8 @@
                 [
                     "BME Tech Elective III - Credit Hours: 3",
                     "BME Tech Elective IV - Credit Hours: 3",
-                    "Free Elective  - Credit Hours: 3",
-                    "HASS Elective  - Credit Hours: 4",
+                    "Free Elective - Credit Hours: 3",
+                    "HASS Elective - Credit Hours: 4",
                     "BMED 4600 - Biomedical Engineering Design Credit Hours: 3"
                 ]
             ]
@@ -672,7 +672,7 @@
             "Fall OR Spring": [
                 [
                     "Concentration 3 Credit Hours: 4",
-                    "HASS Core Elective Credit Hours: 4 ",
+                    "HASS Core Elective Credit Hours: 4",
                     "Professional Elective Credit Hours: 2",
                     "Free Elective Credit Hours: 4",
                     "ARCH 4330 - Structures 2 Credit Hours: 3",
@@ -754,7 +754,7 @@
                     "Elective Credit Hours: 4",
                     "MGMT 4100 - Quantitative Methods for Business Credit Hours: 4",
                     "MGMT 4110 - Operations Management Credit Hours: 4",
-                    "MGMT 4170 - Data Resource Management Credit Hours: "
+                    "MGMT 4170 - Data Resource Management Credit Hours:"
                 ]
             ]
         },
@@ -762,7 +762,7 @@
             "Fall": [
                 [
                     "HASS Ethics Option Credit Hours: 4",
-                    "Elective Credit Hours: 4 ",
+                    "Elective Credit Hours: 4",
                     "MGMT 4190 - Introduction to Machine Learning Applications Credit Hours: 4"
                 ]
             ],
@@ -908,7 +908,7 @@
                     "Free Elective I Credit Hours: 4",
                     "CHME 2050 - Introduction to Computational Chemical Engineering Credit Hours: 3",
                     "CHME 4020 - Transport Phenomena II Credit Hours: 4",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2"
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2"
                 ]
             ],
             "Fall OR Spring": [
@@ -966,7 +966,7 @@
         "2": {
             "Fall": [
                 [
-                    "HASS  Core Elective Credit Hours: 4",
+                    "HASS Core Elective Credit Hours: 4",
                     "CHEM 2110 - Equilibrium Chemistry and Quantitative Analysis Credit Hours: 3",
                     "CHEM 2120 - Experimental Chemistry I: Analytical Techniques Credit Hours: 2",
                     "CHEM 2250 - Organic Chemistry I Credit Hours: 3",
@@ -1053,7 +1053,7 @@
             ],
             "Spring": [
                 [
-                    " Elective Credit Hours: 4",
+                    "Elective Credit Hours: 4",
                     "BIOL 2120 - Introduction to Cell and Molecular Biology Credit Hours: 3",
                     "CHEM 2030 - Inorganic Chemistry I Credit Hours: 3",
                     "CHEM 2260 - Organic Chemistry II Credit Hours: 3",
@@ -1224,13 +1224,13 @@
             ],
             "Fall OR Spring*": [
                 [
-                    "CE Design Elective Credit Hours: 3 ",
+                    "CE Design Elective Credit Hours: 3",
                     "Free Elective Credit Hours: 4",
                     "ENGR 2090 - Engineering Dynamics Credit Hours: 4",
                     "CIVL 1300 - Beginning Programming in Civil and Environmental Engineering Credit Hours: 1",
-                    "Credits  Units: 1",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2",
-                    "Credits  Units: 2"
+                    "Credits Units: 1",
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2",
+                    "Credits Units: 2"
                 ]
             ]
         },
@@ -1458,7 +1458,7 @@
                     "ECSE 2410 - Signals and Systems Credit Hours: 3",
                     "ECSE 2500 - Engineering Probability Credit Hours: 3",
                     "ECSE 2900 - ECSE Enrichment Seminar Credit Hours: 1",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2"
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2"
                 ]
             ]
         }
@@ -1467,7 +1467,7 @@
         "1": {
             "Fall": [
                 [
-                    "HASS Core Elective  Credit Hours: 4",
+                    "HASS Core Elective Credit Hours: 4",
                     "CSCI 1100 - Computer Science I Credit Hours: 4",
                     "MATH 1010 - Calculus I Credit Hours: 4",
                     "PHYS 1100 - Physics I Credit Hours: 4"
@@ -1592,7 +1592,7 @@
                     "HASS Core Elective Credit Hours: 4",
                     "Complementary Area of Study Credit Hours: 4",
                     "STSO 4605 - Design and Innovation Studio B Credit Hours: 4",
-                    "STSO 4610 - Design and Innovation  Studio C Credit Hours: 4"
+                    "STSO 4610 - Design and Innovation Studio C Credit Hours: 4"
                 ]
             ]
         },
@@ -1608,7 +1608,7 @@
             "Spring": [
                 [
                     "Capstone Design Elective Credit Hours: 4",
-                    "Free Elective Credit Hours: 4  ",
+                    "Free Elective Credit Hours: 4",
                     "Free Elective Credit Hours: 4"
                 ]
             ]
@@ -1826,7 +1826,7 @@
                     "Free Elective Credit Hours: 3-4",
                     "ECSE 2110 - Electrical Energy Systems Credit Hours: 3",
                     "ENGR 2050 - Introduction to Engineering Design Credit Hours: 4",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2"
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2"
                 ]
             ],
             "Fall OR Spring": [
@@ -1928,7 +1928,7 @@
             ],
             "Spring": [
                 [
-                    " Science Elective Credit Hours: 4",
+                    "Science Elective Credit Hours: 4",
                     "HASS Core Elective Credit Hours: 4",
                     "ENGR 1300 - Engineering Processes Credit Hours: 1",
                     "MATH 1020 - Calculus II Credit Hours: 4",
@@ -2008,9 +2008,9 @@
             ],
             "Fall OR Spring*": [
                 [
-                    "Technical Elective Credit Hours: 3 ",
-                    "Professional Development -Technical Issues and Solutions Credit Hourse: 2 ",
-                    "Multidisciplinary Eng, Elective Credit Hours: 3 ",
+                    "Technical Elective Credit Hours: 3",
+                    "Professional Development -Technical Issues and Solutions Credit Hourse: 2",
+                    "Multidisciplinary Eng, Elective Credit Hours: 3",
                     "ENVE 4320 - Environmental Chemodynamics Credit Hours: 4",
                     "ENVE 4340 - Physicochemical Processes in Environmental Engineering Credit Hours: 4"
                 ]
@@ -2061,7 +2061,7 @@
                 [
                     "HASS Core Elective Credit Hours: 4",
                     "CHEM 2250 - Organic Chemistry I Credit Hours: 3",
-                    "ERTH 2160 - Introduction to Geobiology Credit Hours: ",
+                    "ERTH 2160 - Introduction to Geobiology Credit Hours:",
                     "ERTH 2210 - Field Methods Credit Hours: 3"
                 ]
             ],
@@ -2124,7 +2124,7 @@
                     "HASS Core Elective Credit Hours: 4",
                     "GSAS 2540 - Introduction to Game Programming Credit Hours: 4",
                     "CSCI 1200 - Data Structures Credit Hours: 4",
-                    "Science Core Elective Credit Hours: 4 CSCI 1200 Data Structures is required for only the CSCI  COGS concentrations",
+                    "Science Core Elective Credit Hours: 4 CSCI 1200 Data Structures is required for only the CSCI COGS concentrations",
                     "MATH 1020 - Calculus II Credit Hours: 4",
                     "OR",
                     "MATH 1520 - Mathematical Methods in Management and Economics Credit Hours: 4"
@@ -2254,7 +2254,7 @@
             "Spring": [
                 [
                     "Culminating Experience Credit Hours: 3-4",
-                    "Electives Credit Hours: 6-7 ",
+                    "Electives Credit Hours: 6-7",
                     "ERTH 4970 - Out-of-Classroom Experience in Earth Sciences Credit Hours: 2 to 4",
                     "ERTH 4980 - Undergraduate Research Thesis Credit Hours: 2 to 4"
                 ]
@@ -2286,7 +2286,7 @@
             "Fall": [
                 [
                     "HASS Core Elective Credit Hours: 4",
-                    "CSCI XXXX  Computer Science Elective Credit Hours: 4",
+                    "CSCI XXXX Computer Science Elective Credit Hours: 4",
                     "ERTH 2120 - Structural Geology Credit Hours: 4",
                     "PHYS 1100 - Physics I Credit Hours: 4"
                 ]
@@ -2371,7 +2371,7 @@
                     "MATH 2010 - Multivariable Calculus and Matrix Algebra Credit Hours: 4",
                     "ISYE 4140 - Statistical Analysis Credit Hours: 4",
                     "PHYS 1200 - Physics II Credit Hours: 4",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2"
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2"
                 ]
             ]
         },
@@ -2386,8 +2386,8 @@
             ],
             "Fall OR Spring": [
                 [
-                    "Technical Elective I  Credit Hours: 3",
-                    "Technical Elective II  Credit Hours: 3",
+                    "Technical Elective I Credit Hours: 3",
+                    "Technical Elective II Credit Hours: 3",
                     "HASS Core Elective V Credit Hours: 4",
                     "Management Elective I Credit Hours: 4",
                     "ISYE 4290 - Discrete Event Simulation Modeling and Analysis Credit Hours: 4"
@@ -2397,7 +2397,7 @@
         "4": {
             "Fall": [
                 [
-                    "Technical Elective III  Credit Hours: 3",
+                    "Technical Elective III Credit Hours: 3",
                     "Free Elective I Credit Hours: 4",
                     "Science Elective Credit Hours: 4",
                     "ISYE 4210 - Design and Analysis of Supply Chains Credit Hours: 3"
@@ -2457,7 +2457,7 @@
             "Fall": [
                 [
                     "Technical Track Course 1 see chart in previous section",
-                    "Concentration Course Credit Hours:  4",
+                    "Concentration Course Credit Hours: 4",
                     "HASS Elective Credit Hours: 4",
                     "ITWS 2110 - Web Systems Development Credit Hours: 4"
                 ]
@@ -2490,7 +2490,7 @@
             "": [
                 [
                     "CSCI 4380 - Database Systems Credit Hours: 4",
-                    "MGMT 4170 - Data Resource Management Credit Hours: "
+                    "MGMT 4170 - Data Resource Management Credit Hours:"
                 ]
             ]
         }
@@ -2551,7 +2551,7 @@
                     "Free Elective I Credit Hours: 4",
                     "MTLE 4100 - Thermodynamics of Materials Credit Hours: 4",
                     "MTLE 4910 - Materials Selection Credit Hours: 3",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2"
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2"
                 ]
             ]
         },
@@ -2568,7 +2568,7 @@
             "Spring": [
                 [
                     "Materials Elective II",
-                    "Free Elective III ",
+                    "Free Elective III",
                     "MTLE 4400 - Materials Synthesis and Processing Credit Hours: 4",
                     "MTLE 4920 - Multidisciplinary Capstone Design Credit Hours: 3"
                 ]
@@ -2654,7 +2654,7 @@
         "1": {
             "Fall (17 credits)": [
                 [
-                    "HASS Core Elective Credit Hours: 4 ",
+                    "HASS Core Elective Credit Hours: 4",
                     "CHEM 1100 - Chemistry I Credit Hours: 4",
                     "ENGR 1100 - Introduction to Engineering Analysis Credit Hours: 4",
                     "ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1",
@@ -2663,7 +2663,7 @@
             ],
             "Spring (17 credits)": [
                 [
-                    "HASS Core Elective Credit Hours: 4 ",
+                    "HASS Core Elective Credit Hours: 4",
                     "ENGR 1300 - Engineering Processes Credit Hours: 1",
                     "ENGR 1600 - Materials Science Credit Hours: 4",
                     "MATH 1020 - Calculus II Credit Hours: 4",
@@ -2683,7 +2683,7 @@
             ],
             "Spring (15 credits)": [
                 [
-                    "SoE-2  Engineering Design Elective Credit Hours: 4 ",
+                    "SoE-2 Engineering Design Elective Credit Hours: 4",
                     "ENGR 2300 - Electronic Instrumentation Credit Hours: 4",
                     "MANE 2110 - Numerical Methods and Programming for Engineers Credit Hours: 3",
                     "MATH 2010 - Multivariable Calculus and Matrix Algebra Credit Hours: 4"
@@ -2713,9 +2713,9 @@
         "4": {
             "Fall  (16 credits)": [
                 [
-                    "HASS Core Elective Credit hours:  4 ",
-                    "MANE 4 Technical Elective Credit hours:  3 ",
-                    "MANE 4 Computation Elective Credit hours:  3 ",
+                    "HASS Core Elective Credit hours: 4",
+                    "MANE 4 Technical Elective Credit hours: 3",
+                    "MANE 4 Computation Elective Credit hours: 3",
                     "ENGR 4010 - Professional Development: Leadership Competencies Credit Hours: 1",
                     "MANE 4260 - Multidisciplinary Capstone Design Credit Hours: 3",
                     "MANE 4510 - Control Systems Laboratory Credit Hours: 2"
@@ -2723,10 +2723,10 @@
             ],
             "Spring 15 credits)": [
                 [
-                    "SoESoS-4 Technical Elective II Credit hours:  3 ",
+                    "SoESoS-4 Technical Elective II Credit hours: 3",
                     "Free Elective Credit Hours: 4",
                     "Free Elective Credit Hours: 4",
-                    "HASS Core Elective  Credit Hours: 4 "
+                    "HASS Core Elective Credit Hours: 4"
                 ]
             ]
         }
@@ -2829,7 +2829,7 @@
             ],
             "Spring ": [
                 [
-                    "HASS Core Elective Credit Hours: 4 ",
+                    "HASS Core Elective Credit Hours: 4",
                     "CHEM 1100 - Chemistry I Credit Hours: 4",
                     "MANE 1100 - Introduction to Nuclear Engineering Credit Hours: 1",
                     "MATH 1020 - Calculus II Credit Hours: 4",
@@ -2844,12 +2844,12 @@
                     "MANE 2830 - Nuclear Phenomena for Engineering Applications Credit Hours: 4",
                     "MATH 2010 - Multivariable Calculus and Matrix Algebra Credit Hours: 4",
                     "MATH 2400 - Introduction to Differential Equations Credit Hours: 4",
-                    "STSO 4100 - Professional Development  2 Technical Issues and Solutions Credit Hours: 2"
+                    "STSO 4100 - Professional Development 2 Technical Issues and Solutions Credit Hours: 2"
                 ]
             ],
             "Spring ": [
                 [
-                    "Materials Science Elective Credit Hours: 4 ",
+                    "Materials Science Elective Credit Hours: 4",
                     "MANE 2110 - Numerical Methods and Programming for Engineers Credit Hours: 3",
                     "MANE 2400 - Fundamentals of Nuclear Engineering Credit Hours: 4",
                     "MANE 2720 - Fluid Mechanics Credit Hours: 3",
@@ -2861,14 +2861,14 @@
             "The Arch Summer Semester*": [
                 [
                     "HASS Core Elective Credit Hours: 4",
-                    "SoE 2 Engineering Design Elective  Credit Hours: 4 ",
+                    "SoE 2 Engineering Design Elective Credit Hours: 4",
                     "ENGR 2600 - Modeling and Analysis of Uncertainty Credit Hours: 3",
                     "MANE 4500 - Modeling and Control of Dynamic Systems Credit Hours: 3"
                 ]
             ],
             "Fall* OR Spring": [
                 [
-                    "HASS Core Elective Credit Hours: 4 ",
+                    "HASS Core Elective Credit Hours: 4",
                     "ENGR 4010 - Professional Development: Leadership Competencies Credit Hours: 1",
                     "MANE 4400 - Nuclear Power Systems Engineering Credit Hours: 4",
                     "MANE 4470 - Radiological Engineering Credit Hours: 3",
@@ -2879,8 +2879,8 @@
         "4": {
             "Fall": [
                 [
-                    "Free Elective Credit Hours: 4 ",
-                    "HASS Core Elective  Credit Hours: 4 ",
+                    "Free Elective Credit Hours: 4",
+                    "HASS Core Elective Credit Hours: 4",
                     "MANE 4 NE Technical Elective Credit hours: 3",
                     "MANE 4380 - Nuclear Engineering Senior Design Project I Credit Hours: 1",
                     "MANE 4370 - Nuclear Engineering Laboratory Credit Hours: 4"
@@ -2889,9 +2889,9 @@
             "Spring": [
                 [
                     "Free Elective Credit Hours: 4",
-                    "Free Elective Credit Hours: 4 ",
+                    "Free Elective Credit Hours: 4",
                     "MANE 4 Nuclear Engineering Laboratory II Credit Hours: 3",
-                    "MANE 4 NE Technical Elective II Credit Hours: 3 ",
+                    "MANE 4 NE Technical Elective II Credit Hours: 3",
                     "MANE 4390 - Nuclear Engineering Senior Design Project II Credit Hours: 2"
                 ]
             ]
@@ -2915,7 +2915,7 @@
                     "IHSS 1150 - The Genome and You Credit Hours: 4",
                     "IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4",
                     "IHSS 1165 - Great Ideas in Philosophy Credit Hours: 4",
-                    "IHSS 1130 - Philosophy, Technology,  the Human Future Credit Hours: 4"
+                    "IHSS 1130 - Philosophy, Technology, the Human Future Credit Hours: 4"
                 ]
             ],
             "Spring": [
@@ -2937,7 +2937,7 @@
                     "IHSS 1150 - The Genome and You Credit Hours: 4",
                     "IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4",
                     "IHSS 1165 - Great Ideas in Philosophy Credit Hours: 4",
-                    "IHSS 1130 - Philosophy, Technology,  the Human Future Credit Hours: 4"
+                    "IHSS 1130 - Philosophy, Technology, the Human Future Credit Hours: 4"
                 ]
             ]
         },
@@ -2971,6 +2971,80 @@
                     "PHIL 2400 - Philosophy of Biology Credit Hours: 4",
                     "PHIL 4130 - Philosophy of Science Credit Hours: 4",
                     "PHIL 4310 - Scientific Revolutions Credit Hours: 4"
+                ]
+            ]
+        }
+    },
+    "Physician-Scientist": {
+        "1": {
+            "Fall - Credits: 16": [
+                [
+                    "HASS Core Elective Credit Hours: 4",
+                    "BIOL 1010 - Introduction to Biology Credit Hours: 3",
+                    "BIOL 1015 - Introduction to Biology Laboratory Credit Hours: 1",
+                    "CHEM 1110 - Chemistry I with Advanced Lab Credit Hours: 4",
+                    "MATH 1010 - Calculus I Credit Hours: 4"
+                ]
+            ],
+            "Spring - Credits: 16": [
+                [
+                    "HASS Core Elective Credit Hours: 4",
+                    "BIOL 2120 - Introduction to Cell and Molecular Biology Credit Hours: 3",
+                    "BIOL 2125 - Introduction to Cellular and Molecular Biology Laboratory Credit Hours: 1",
+                    "CHEM 1200 - Chemistry II Credit Hours: 4",
+                    "MATH 1020 - Calculus II Credit Hours: 4"
+                ]
+            ]
+        },
+        "2": {
+            "Fall - Credits: 16": [
+                [
+                    "HASS Core Elective Credit Hours: 4",
+                    "BIOL 2500 - Genetics and Evolution Credit Hours: 4",
+                    "CHEM 2230 - Organic Chemistry Laboratory I Credit Hours: 1",
+                    "CHEM 2250 - Organic Chemistry I Credit Hours: 3",
+                    "PHYS 1100 - Physics I Credit Hours: 4"
+                ]
+            ],
+            "Spring - Credits: 16": [
+                [
+                    "HASS Core Elective Credit Hours: 4",
+                    "BIOL 4620 - Molecular Biology Credit Hours: 4",
+                    "CHEM 2240 - Organic Chemistry Laboratory II Credit Hours: 1",
+                    "CHEM 2260 - Organic Chemistry II Credit Hours: 3",
+                    "PHYS 1200 - Physics II Credit Hours: 4"
+                ]
+            ]
+        },
+        "3": {
+            "Fall - Credits: 17": [
+                [
+                    "HASS Core Elective Credit Hours: 4",
+                    "BIOL 4110 - Investigative Medicine I Credit Hours: 1",
+                    "BIOL 4200 - Biostatistics Credit Hours: 4",
+                    "BIOL 4270 - Human Physiology Credit Hours: 4",
+                    "BIOL 4760 - Molecular Biochemistry I Credit Hours: 4"
+                ]
+            ],
+            "Spring - Credits: 19": [
+                [
+                    "HASS Core Elective Credit Hours: 4",
+                    "BIOL 4100 - From Neuron to Behavior Credit Hours: 4",
+                    "BIOL 4120 - Investigative Medicine II Credit Hours: 1",
+                    "BIOL 4250 - Developmental Biology Credit Hours: 4",
+                    "BIOL 4980 - Biomedical Research Credit Hours: 6"
+                ]
+            ]
+        },
+        "4": {
+            "Summer III": [
+                [
+                    "Research Credit Hours: 0"
+                ]
+            ],
+            "Academic Year IV": [
+                [
+                    "Academic coursework totaling 28 credit hours will be taken at Albany Medical College during the fourth year"
                 ]
             ]
         }
@@ -3050,6 +3124,12 @@
             ]
         }
     },
+    "Program for Graduates of Naval Nuclear Power Training Command\u2019s Nuclear Power School": {
+        "info": [
+            "Rensselaer\u2019s Program in Nuclear Engineering for Graduates of the Naval Nuclear Power Training School Command\u2019s Nuclear Power School has transitioned to Rensselaer\u2019s main campus in Troy and is no longer available at the Malta site.",
+            "Students may enroll at Rensselaer full time and receive transfer credits from the Nuclear Power School. For further information, please contact the Mechanical, Aerospace, and Nuclear Engineering (MANE) Student Services by email at MANE@rpi.edu or by phone at 518-276-6351."
+        ]
+    },
     "Psychological Science": {
         "1": {
             "Fall": [
@@ -3094,7 +3174,7 @@
                 [
                     "Free Elective Credit Hours: 4",
                     "Free Elective Credit Hours: 4",
-                    "HASS Core Elective Credit Hours: 4  "
+                    "HASS Core Elective Credit Hours: 4"
                 ]
             ],
             "Fall OR Spring": [
@@ -3111,15 +3191,15 @@
                 [
                     "Psychology Elective Credit Hours: 4",
                     "Free Elective Credit Hours: 4",
-                    "Free Elective Credit Hours: 4 ",
-                    "Free Elective Credit Hours: 4  "
+                    "Free Elective Credit Hours: 4",
+                    "Free Elective Credit Hours: 4"
                 ]
             ],
             "Spring": [
                 [
                     "Free Elective Credit Hours: 4",
-                    "Free Elective Credit Hours: 4 ",
-                    "Free Elective Credit Hours: 4  ",
+                    "Free Elective Credit Hours: 4",
+                    "Free Elective Credit Hours: 4",
                     "PSYC 4XXX Advanced Seminar in Psychology Credit Hours: 4 Or",
                     "Undergraduate Research Project Credit Hours: 4 Or",
                     "Honors Thesis Credit Hours: 4"
@@ -3195,7 +3275,7 @@
             "Spring": [
                 [
                     "CAS Course Credit Hours: 4",
-                    "Free Elective Credit Hours: 4  ",
+                    "Free Elective Credit Hours: 4",
                     "Free Elective Credit Hours: 4",
                     "STSO 4990 - STS and Sustainability Senior Project Credit Hours: 4"
                 ]
