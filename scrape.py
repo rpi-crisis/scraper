@@ -97,12 +97,24 @@ for program in program_names:
                     all_classes.append(l)
                 for l in linked_text:
                     all_classes.append(l)
+                parsed_classes = []
                 for k in range(len(all_classes)):
+                    #do some parsing of the string
                     all_classes[k] = all_classes[k].replace("\u00a0", " ")
                     all_classes[k] = all_classes[k].replace("\n\t", " ")
                     l = [char for char in all_classes[k] if char.isalnum() or char == " " or char == "-" or char == ":" or char == ","]
-                    all_classes[k] = "".join(l)
-                terms_dict[term_text].append(all_classes)
+                    l = "".join(l)
+                    s = l.find("See footnote")
+                    if( s < 0):
+                        s = l.find("see footnote")
+                    if (s < 0):
+                        s = l.find("See Footnote")
+                    o = l.find("or")
+                    if(s != 0 and s!= 1 and o != 0 and l != " "):
+                        if(s > 0):
+                            l = l[:s-1]
+                        parsed_classes.append(l)
+                terms_dict[term_text].append(parsed_classes)
                 #print(all_classes)
                     ##terms_dict[term_text].append(linked_text)
             years[year_num] = terms_dict
