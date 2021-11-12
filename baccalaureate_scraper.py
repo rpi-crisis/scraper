@@ -62,7 +62,10 @@ for program in program_names:
         
         div = td_new.find('div', class_='custom_leftpad_20')
         if(div): 
-            leftpad20 = div.find_all('div', class_='custom_leftpad_20')[:4]#first 4 years, can be adjusted
+            num = 4
+            if(program == "Architecture"):
+                num = 5
+            leftpad20 = div.find_all('div', class_='custom_leftpad_20')[:num]#first 4 years, can be adjusted
             
             for term in leftpad20:
                 
@@ -143,7 +146,7 @@ driver.close()
 #print(dictionary)
         #driver.close()
 json_obj = json.dumps(dictionary, indent=4)
-with open("sample.json", "w") as outfile:
+with open("baccalaureate.json", "w") as outfile:
     outfile.write(json_obj)
 
 

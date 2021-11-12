@@ -315,6 +315,25 @@
                     "ARCH 4780 - Architectural Design Studio 6 Credit Hours: 5"
                 ]
             ]
+        },
+        "5": {
+            "Fall": [
+                [
+                    "Professional Elective Credit Hours: 2",
+                    "Elective Credit Hours: 4",
+                    "HASS Elective Credit Hours: 4",
+                    "ARCH 4790 - Architectural Design Studio 7 Credit Hours: 5",
+                    "ARCH 4910 - Final Project Design Research Seminar Credit Hours: 3"
+                ]
+            ],
+            "Spring": [
+                [
+                    "Professional Elective Credit Hours: 2",
+                    "Elective Credit Hours: 4",
+                    "Professional Elective Credit Hours: 2",
+                    "ARCH 4920 - Final Project Design Studio Credit Hours: 5"
+                ]
+            ]
         }
     },
     "Biological Neuroscience": {
