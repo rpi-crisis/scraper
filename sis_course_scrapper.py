@@ -11,9 +11,17 @@ import json
 import re
 import time
 
-debug = False
+# Do you want to output the time it took for the operations to complete
 timeit = True
-output_file = 'sis_courses_data.json'
+
+# Do you want to output verbose debug information to the console?
+debug = True
+
+# Do you want to do a short sample search of only the CSCI courses to test functionality?
+# output will be redirected to 'sis_courses_TEST.json' if True
+small_search = False
+
+output_file = 'sis_courses_TEST.json' if small_search else 'sis_courses_data.json'
 
 host = "https://sis.rpi.edu"
 url_pre = '/rss/bwckctlg.p_display_courses?term_in='
@@ -51,8 +59,8 @@ def fetch_course_links(year, term):
             departments.append(department_option['value'])
 
         # Send a request for all of each department's courses
-        # TODO use "departments[15]" for testing and "departments" for production
-        req = s.post(url, data={'sel_subj': departments}, headers=header)
+        # If it is a small search, only send the request for the CSCI courses
+        req = s.post(url, data={'sel_subj': "CSCI" if small_search else departments}, headers=header)
         print("Got search results: " + str(req.status_code))
 
         # clean_html = bs(req.text, features="html5lib").prettify() # good looking html for debugging
@@ -118,14 +126,15 @@ def fetch_course_info(link):
             if not availability:
                 if debug:
                     print(f'Unable to read section availability at {link}, assuming that it is not being offered currently')
-                return None
+                continue
 
             meets = info.find('table', {'class': 'datadisplaytable'})
             if meets:
                 meets = meets.find('tbody').findChildren('tr', recursive=False)
             else:
-                print(f'Unable to read meeting times from {link}')
-                return None
+                if debug:
+                    print(f'Unable to read meeting times from {link}')
+                continue
             meets_data = []
             # remove information row
             meets.pop(0)
@@ -156,7 +165,7 @@ def fetch_course_info(link):
                 print(f'CRN:{c["crn"]} - Section:{c["section"]} - {c["enrolled"]}/{c["capacity"]}: {c["remaining"]} left')
                 for meet in c['meetings']:
                     print(f'\t{meet["time"]} - {meet["days"]} - {meet["location"]} - {meet["type"]} - {meet["instructors"]}')
-            return sections
+        return sections
 
 
 if __name__ == "__main__":
