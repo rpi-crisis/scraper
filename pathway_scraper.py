@@ -27,7 +27,7 @@ for li in table_li: #grab the text and the link in the li element
     program_links.append(li.find('a')['href'])
 
 dictionary = {}
-bug_programs = ['Design, Innovation, and Society']
+bug_programs = []
 for i in range(len(program_names)):
     program = program_names[i]
     if program not in bug_programs:
@@ -35,7 +35,8 @@ for i in range(len(program_names)):
         dictionary[program] = {}
         # a few of the integrative pathways also have links before 
         # so if you click Economics it actually clicks the wrong link
-        duplicate_programs = ["Economics", "Electronic Arts", "Philosophy","Science, Technology, and Society"]
+        duplicate_programs = ["Economics", "Electronic Arts", "Philosophy","Science, Technology, and Society",
+        "Design, Innovation, and Society"]
         if(program in duplicate_programs):
             driver.find_elements_by_link_text(program)[1].click()
         else:
