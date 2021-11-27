@@ -105,7 +105,7 @@ def fetch_section_availability(link):
         return seats[0].text, seats[1].text, seats[2].text
 
 
-def fetch_course_info(link):
+def fetch_course_info(link, desc):
     with rq.Session() as s:
         req = s.get(link, headers=header)
         course_info = bs(req.text, features='html5lib')
@@ -160,12 +160,12 @@ def fetch_course_info(link):
                 })
             sections.append({
                 'crn': crn,
+                'description': desc,
                 'section': section,
                 'meetings': meets_data,
                 'capacity': int(availability[0]),
                 'enrolled': int(availability[1]),
                 'remaining': int(availability[2])
-
             })
 
         if debug:
@@ -191,13 +191,15 @@ if __name__ == "__main__":
     i = 0
     size = len(links)
     for link in links.values():
+        link = link[0] # course link
+        desc = link[1] # course description
         if debug:
             print(f'{i}/{size}')
         else:
             print('*', end='')
             if i % 50 == 49:
                 print('')
-        store.append(fetch_course_info(link))
+        store.append(fetch_course_info(link, desc))
         i += 1
     if timeit:
         print(f'\nTook {time.time() - before} to go to all sublinks')
