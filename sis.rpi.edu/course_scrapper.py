@@ -44,7 +44,7 @@ def get_semester_id(year, part):
 def course_parts(course_string):
     return course_string[:4], int(course_string[5:9]), course_string[12:]
 
-
+# gathers course links and descriptions
 def fetch_course_links(year, term):
     with rq.Session() as s:
         departments = []
@@ -70,21 +70,20 @@ def fetch_course_links(year, term):
         class_titles = data.find_all(class_='nttitle')
         class_infos = data.find_all(class_='ntdefault')
 
-        classes_descs_dict = {}
+        # gather links and descriptions for each course that has an active link
+        classes_links_dict = {}
+        # loops through each class
         for class_title, class_info in zip(class_titles, class_infos):
             soup = bs(class_info.text, 'html5lib')
+            # split into different components
             desc = soup.text.split('\n\n')[0].strip()
+            # if there is a digit, there is no course description
             if desc[0].isdigit():
                 desc=''
-            classes_descs_dict[class_title.a.text] = desc
-            
+            # if the course has a link, store the link and description in a dictionary
+            if class_info.a:
+                classes_links_dict[class_title.a.text] = [host+class_info.a['href'], desc]
         
-        # TODO get the course "description" which includes the prereqs and coreqs and credits from the class_info
-        # maybe have an array with the link and parsed description dictionary in it?
-        # TODO make a method to parse a description into a dictionary for this
-        classes_links_dict = {class_title.a.text: host+class_info.a['href'] for
-                              class_title, class_info in zip(class_titles, class_infos)
-                              if class_info.a}
         return classes_links_dict
 
 
@@ -179,6 +178,7 @@ def fetch_course_info(link):
 
 if __name__ == "__main__":
     before = time.time()
+    # the value of each class in the dictionary is a list with item 0 as a link and item 1 as a course description
     links = fetch_course_links(2021, "fall")
     if timeit:
         print(f'Took {time.time() - before} to receive initial request for all courses')
