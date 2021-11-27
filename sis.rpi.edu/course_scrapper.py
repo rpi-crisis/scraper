@@ -69,7 +69,10 @@ def fetch_course_links(year, term):
         data = search_results.find('table', {'class': 'datadisplaytable'})
         class_titles = data.find_all(class_='nttitle')
         class_infos = data.find_all(class_='ntdefault')
-
+        for class_title, class_info in zip(class_titles, class_infos):
+            soup = bs(class_info.text, features="html5lib")
+            desc = soup.find("td").contents[0].strip()
+        
         # TODO get the course "description" which includes the prereqs and coreqs and credits from the class_info
         # maybe have an array with the link and parsed description dictionary in it?
         # TODO make a method to parse a description into a dictionary for this
