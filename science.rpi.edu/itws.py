@@ -1,6 +1,5 @@
 import requests as rq, json, re
 from bs4 import BeautifulSoup as bs
-from urllib.parse import urlparse
 
 MAIN_SITE = "https://science.rpi.edu/itws/programs/undergrad/bs"
 
@@ -34,8 +33,8 @@ def get_main(major, minor):
     "type": "html",
     "name": "DESCRIPTION",
     "data": str(curric_header) + str(curric_reqs) +
-              str(core_header) +   str(core_reqs) +
-              str(conc_header) +   str(conc_reqs) +
+            str(core_header)   + str(core_reqs)   +
+            str(conc_header)   + str(conc_reqs)   +
             str(degree_header) + str(degree_reqs)
   })
 
@@ -68,14 +67,14 @@ def get_main(major, minor):
 def get_data():
   major = {
     "type": "major",
-    "major": "CSCI",
+    "major": "ITWS",
     "requirements": [],
     "templates": []
   }
 
   minor = {
     "type": "minor",
-    "major": "CSCI",
+    "major": "ITWS",
     "requirements": [],
     "templates": []
   }
