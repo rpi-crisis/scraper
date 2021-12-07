@@ -1,0 +1,703 @@
+{
+    "Art History, Theory, and Criticism": {
+        "Choose one of the following:": [
+            "ARTS 1050 - Art History Credit Hours: 4",
+            "ARTS 2510 - Histories of Jazz and Improvised Music Credit Hours: 4",
+            "IHSS 1170 - History of Animation Credit Hours: 4",
+            "IHSS 1300 - Race and Film in U.S. Culture and History Credit Hours: 4",
+            "IHSS 1700 - Songwriting Workshop Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 2540 - The Multimedia Century Credit Hours: 4",
+            "ARTS 4130 - New Media Theory Credit Hours: 4",
+            "ARTS 2500 - Histories of Western Music Credit Hours: 4"
+        ]
+    },
+    "Artificial Intelligence": {
+        "Required:": [
+            "COGS 2120 - Introduction to Cognitive Science Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "PHIL 4960  - Ethics of AI Credit Hours: 4",
+            "COGS 4960 - Learning and Advanced Game AICredit Hours: 4",
+            "PHIL 4961 - Intermediate Formal Logic & AI Credit Hours: 4",
+            "IHSS 1972 - AI and SocietyCredit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Cognitive Science of Artificial Intelligence Minor"
+        ]
+    },
+    "Behavioral and Cognitive Neuroscience": {
+        "Required:": [
+            "PSYC 1200 - Introduction to Psychological Science Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following, with at least 4 credits at the 4000-level:": [
+            "IHSS 1960 - Understanding Empathy, Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Behavioral and Cognitive Neuroscience"
+        ]
+    },
+    "Chinese Language": {
+        "Choose 12 credits from the following:": [
+            "LANG 1410 - Chinese I Credit Hours: 4",
+            "LANG 2410 - Chinese II Credit Hours: 4",
+            "LANG 4420 - Chinese III Credit Hours: 4",
+            "LANG 4430 - Chinese IV Credit Hours: 4",
+            "LANG 4470 - Chinese V Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Chinese Language Minor"
+        ]
+    },
+    "Creative Design and Innovation": {
+        "Choose one of the following:": [
+            "IHSS 1960- Remixing in Digital CultureCredit Hours: 4",
+            "IHSS 1960 - Worlds on DisplayCredit Hours: 4",
+            "IHSS 1960 - Game Sound and Musical Play Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "COMM 4960- Color Theory Credit Hours: 4",
+            "ARTS 4960- Performance Art Credit Hours: 4"
+        ]
+    },
+    "Design, Innovation, and Society": {
+        "Required:": [
+            "IHSS 1610 - Design and Innovation Studio I Credit Hours: 4",
+            "STSO 2610 - Design and Innovation Studio II Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ENGR 4610 - Design and Innovation Studio C Credit Hours: 4",
+            "STSO 4605 - Design and Innovation Studio B Credit Hours: 4",
+            "STSO 4610 - Design and Innovation  Studio C Credit Hours: 4"
+        ]
+    },
+    "Economics": {
+        "Choose one of the following:": [
+            "2000-level ECON Elective Credit Hours: 4"
+        ],
+        "Choose remaining credits from:": [
+            "Any 4000-level ECON course"
+        ],
+        "Compatible minor:": [
+            "Economics Minor"
+        ]
+    },
+    "Economics of Banking and Finance": {
+        "Choose one of the following:": [
+            "ECON 1200 - Introductory Economics Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4"
+        ],
+        "Required:": [
+            "ECON 4130 - Money and Banking Credit Hours: 4",
+            "ECON 4330 - Economics of Financial Institutions and Markets Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Economics of Banking and Finance Minor"
+        ]
+    },
+    "Economics of Decision-Making": {
+        "Required:": [
+            "IHSS 1200 - Principles of Economics Credit Hours: 4",
+            "or",
+            "ECON 1200 - Introductory Economics Credit Hours: 4"
+        ],
+        "Remaining credits from the following:": [
+            "ECON 4220 - Applied Game Theory Credit Hours: 4",
+            "ECON 4270 - Behavioral Economics Credit Hours: 4",
+            "ECON 4340 - Behavioral Financial Economics Credit Hours: 4",
+            "ECON 4320 - Economic Models of Decision-Making Credit Hours: 4",
+            "ECON 4360 - Experimental Economics Credit Hours: 4"
+        ]
+    },
+    "Economics of Healthcare Markets": {
+        "Choose one of the following:": [
+            "ECON 1200 - Introductory Economics Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ECON 4170 - Health Economics and Policy Credit Hours: 4",
+            "ECON 4270 - Behavioral Economics Credit Hours: 4",
+            "ECON 4290 - Economics of Biotech and Medical Innovations Credit Hours: 4"
+        ],
+        "Compatible Minor": [
+            "Economics of Healthcare Markets"
+        ]
+    },
+    "Economics of Policy and Regulations": {
+        "Choose one of the following:": [
+            "ECON 1200 - Introductory Economics Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ECON 4150 - Economics of Government Regulation and Firm Strategy Credit Hours: 4",
+            "ECON 4170 - Health Economics and Policy Credit Hours: 4",
+            "ECON 4310 - Law and Economics Credit Hours: 4",
+            "ECON 4230 - Environmental Economics Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Economics of Policy and Regulations"
+        ]
+    },
+    "Economics of Quantitative Modeling": {
+        "Choose one of the following:": [
+            "ECON 1200 - Introductory Economics Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ECON 4280 - Econometric Methods for Big Data Credit Hours: 4",
+            "ECON 4570 - Econometrics Credit Hours: 4",
+            "ECON 4360 - Experimental Economics Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Economics of Quantitative Modeling"
+        ]
+    },
+    "Economics of Technology and Innovation": {
+        "Choose one of the following:": [
+            "ECON 1200 - Introductory Economics Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ECON 4110 - Economics of Innovation and New Technologies Credit Hours: 4",
+            "ECON 4430 - Economics of Growth & Innovation Credit Hours: 4",
+            "ECON 4290 - Economics of Biotech and Medical Innovations Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Economics of Technology and Innovation Minor"
+        ]
+    },
+    "Electronic Arts": {
+        "Choose one of the following:": [
+            "IHSS 1960- Behind the Television Screen",
+            "IHSS 1960 - Remixing in Digital Culture"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 4960 Performance Art Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Electronic Arts Minor"
+        ]
+    },
+    "Environmental Futures": {
+        "Choose one of the following:": [
+            "IHSS 1960 - Music and Protest",
+            "IHSS 1960 - Designing Climate Justice"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 4250 - Art, Community, and Technology Credit Hours: 4",
+            "ARTS 4240 - Eco Chic: Living Art Credit Hours: 4",
+            "ECON 4230 - Environmental Economics Credit Hours: 4",
+            "PHIL 4300 - Environmental Philosophy Credit Hours: 4",
+            "PHIL 4500 - Bioethics Credit Hours: 4",
+            "STSO 4250 - Bioethics Credit Hours: 4",
+            "STSO 4720 - Consumer Culture Credit Hours: 4",
+            "STSO 4280 - Sustainability Education Credit Hours: 4",
+            "ARTS 4140 - Queer Ecologies Credit Hours: 4",
+            "ARTS 4120 - Biopunk: Arts Lab Practice Credit Hours: 4"
+        ]
+    },
+    "Ethics, Integrity, and Social Responsibility": {
+        "Choose 12 credits from the following:": [
+            "IHSS 1140 - Minds and Machines Credit Hours: 4",
+            "IHSS 1150 - The Genome and You Credit Hours: 4",
+            "IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4",
+            "IHSS 1350 - Law, Values, and Public Policy: Perspectives on Science and Technology Credit Hours: 4",
+            "STSO 1110 - Science, Technology, and Society Credit Hours: 4",
+            "IHSS 1960  - Designing Climate Justice Credit Hours: 4",
+            "ARTS 4250 - Art, Community, and Technology Credit Hours: 4",
+            "ARTS 4240 - Eco Chic: Living Art Credit Hours: 4",
+            "ARTS 4560 - Hactivism Credit Hours: 4",
+            "PHIL 4240 - Ethics Credit Hours: 4",
+            "PHIL 4300 - Environmental Philosophy Credit Hours: 4",
+            "PHIL 4500 - Bioethics Credit Hours: 4",
+            "STSO 4210 - Engineering Ethics Credit Hours: 4",
+            "STSO 4250 - Bioethics Credit Hours: 4",
+            "STSO 4340 - Environmental Philosophy Credit Hours: 4",
+            "STSO 4400 - Medicine, Culture, and Society Credit Hours: 4"
+        ]
+    },
+    "Extent and Limits of Rationality": {
+        "Select 12 credits from the following:": [
+            "IHSS 1140 - Minds and Machines Credit Hours: 4",
+            "IHSS 1180 - The Art of Listening Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4",
+            "IHSS 1235 - Are Humans Rational? Credit Hours: 4",
+            "IHSS 1570 - War and Technology: Past, Present, and Future Credit Hours: 4",
+            "IHSS 1510 - War and Society Credit Hours: 4",
+            "COGS 2120 - Introduction to Cognitive Science Credit Hours: 4",
+            "COMM 2520 - Communication Theory and Practice Credit Hours: 4",
+            "ECON 4220 - Applied Game Theory Credit Hours: 4",
+            "ECON 4270 - Behavioral Economics Credit Hours: 4",
+            "PHIL 2100 - Critical Thinking Credit Hours: 4",
+            "PHIL 2140 - Introduction to Logic Credit Hours: 4",
+            "PSYC 2100 - Critical Thinking Credit Hours: 4",
+            "PSYC 4370 - Cognitive Psychology Credit Hours: 4",
+            "STSO 4530 - History of Science and Technology Credit Hours: 4",
+            "WRIT 2340 - Speech Communication Credit Hours: 4",
+            "WRIT 4550 - Proposing and Persuading Credit Hours: 4",
+            "PHIL 4961  - Intermediate Formal Logic & AI Credit Hours: 4"
+        ]
+    },
+    "Fact and Fiction": {
+        "Choose one of the following:": [
+            "IHSS 1976  - Fiction from Film to the Internet",
+            "IHSS 1964 - Documentary in the 21st Century"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 4040 - Rethinking Documentary: Video Production Credit Hours: 4",
+            "ARTS 4560 - Hactivism Credit Hours: 4",
+            "ARTS 4640 - Science Fictions Credit Hours: 4",
+            "COMM 2440 - Documentary Film Credit Hours: 4",
+            "COMM 4530 - Reality TV and Post-Factual Media Credit Hours: 4",
+            "COMM 4580 - Advertising and Culture Credit Hours: 4",
+            "LITR 4150 - Science and Fiction Credit Hours: 4",
+            "PHIL 2100 - Critical Thinking Credit Hours: 4",
+            "PHIL 4130 - Philosophy of Science Credit Hours: 4",
+            "PSYC 2100 - Critical Thinking Credit Hours: 4",
+            "STSO 4430 - Drugs in History Credit Hours: 4",
+            "STSO 4590 - American Politics in Crisis Credit Hours: 4",
+            "WRIT 2320 - Creative Writing: Creative Non-Fiction Credit Hours: 4",
+            "WRIT 2330 - Creative Writing:  The Short Story Credit Hours: 4"
+        ]
+    },
+    "Game Studies": {
+        "Choose 12 credits from the following:": [
+            "GSAS 1600 - History and Culture of Games Credit Hours: 4",
+            "GSAS 2510 - Introduction to Game Design Credit Hours: 4",
+            "GSAS 2520 - Introduction to Game Storytelling Credit Hours: 4",
+            "GSAS 2540 - Introduction to Game Programming Credit Hours: 4",
+            "GSAS 4520 - Game Development I Credit Hours: 4",
+            "GSAS 4540 - Game Development II Credit Hours: 4",
+            "GSAS 4510 - Experimental Game Design Credit Hours: 4"
+        ]
+    },
+    "Gender, Race, Sexuality, Ethnicity, and Social Change": {
+        "Choose 12 credits from the following:": [
+            "COMM 2440 - Documentary Film Credit Hours: 4",
+            "COMM 4550 - Religion in the Media Credit Hours: 4",
+            "LITR 4770 - Women Writers Credit Hours: 4",
+            "STSO 2510 - Cultural Anthropology Credit Hours: 4",
+            "STSO 2520 - Sociology Credit Hours: 4",
+            "STSO 4560 - Gender, Science, and Technology Credit Hours: 4",
+            "ARTS 4140 - Queer Ecologies Credit Hours: 4",
+            "ARTS 2550 - Popular Music and Society Credit Hours: 4"
+        ],
+        "Can select only one of the following to be applied to pathway:IHSS 1968  Songs of IdentityIHSS 19XX  Revolutions in Perspective\u00a0IHSS 19XX - Worlds on DisplayIHSS 1150 - The Genome and You Credit Hours: 4IHSS 1300 - Race and Film in U.S. Culture and History Credit Hours: 4IHSS 1492 - Language and Culture Credit Hours: 4IHSS 1560 - Media and Society Credit Hours: 4IHSS 1666 - Religion in a Global World Credit Hours: 4": [
+            "IHSS 1968  - Songs of Identity",
+            "IHSS 19XX  - Revolutions in Perspective",
+            "IHSS 19XX - Worlds on Display"
+        ]
+    },
+    "Graphic Design": {
+        "Choose 12 credits from the following, with at least 4 credits at the 4000-level:": [
+            "IHSS 1560 - Media and Society Credit Hours: 4",
+            "IHSS 1562 - Life in Color Credit Hours: 4",
+            "COMM 2520 - Communication Theory and Practice Credit Hours: 4",
+            "COMM 2570 - Typography Credit Hours: 4",
+            "COMM 2660 - Introduction to Graphic Design Credit Hours: 4",
+            "COMM 4320 - Visual Poetics and Narrative Credit Hours: 4",
+            "COMM 4460 - Visual Design: Theory and Application Credit Hours: 4",
+            "COMM 4970 - 2D Motion Graphics Credit Hours: 4",
+            "COMM 4730 - Brand Identity Design Credit Hours: 4",
+            "COMM 4690 - Interface Design: Hypermedia Theory and Application Credit Hours: 4",
+            "COMM 4880 - Interactive Data Visualization Credit Hours: 4",
+            "WRIT 1110 - Writing in Context Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Graphic Design Minor"
+        ]
+    },
+    "History": {
+        "Required:": [
+            "STSO 2500 - American History Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "STSO4000  - STSElective",
+            "IHSS 1960 - Revolutions in Perspective Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "History Minor"
+        ]
+    },
+    "Information Technology and Web Sciences": {
+        "Required:": [
+            "IHSS 1220 - IT and Society Credit Hours: 4",
+            "or",
+            "ITWS 1220 - IT and Society Credit Hours: 4",
+            "ITWS 2210 - Introduction to Human Computer Interaction Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 2540 - The Multimedia Century Credit Hours: 4",
+            "COGS 2120 - Introduction to Cognitive Science Credit Hours: 4",
+            "COMM 2520 - Communication Theory and Practice Credit Hours: 4",
+            "COMM 2660 - Introduction to Graphic Design Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4",
+            "PHIL 2100 - Critical Thinking Credit Hours: 4",
+            "PHIL 2140 - Introduction to Logic Credit Hours: 4",
+            "PSYC 1200 - Introduction to Psychological Science Credit Hours: 4",
+            "STSO 1110 - Science, Technology, and Society Credit Hours: 4",
+            "STSO 2210 - Design, Culture, and Society Credit Hours: 4",
+            "WRIT 2110 - Strategic Writing Credit Hours: 4",
+            "WRIT 2340 - Speech Communication Credit Hours: 4",
+            "COMM 4420 - Foundations of HCI Usability Credit Hours: 4"
+        ]
+    },
+    "Interactive Media/Data Design": {
+        "Choose 12 credits from the following, with at least 4 credits at the 4000 level:": [
+            "IHSS 1560 - Media and Society Credit Hours: 4",
+            "WRIT 1110 - Writing in Context Credit Hours: 4",
+            "COMM 2520 - Communication Theory and Practice Credit Hours: 4",
+            "COMM 2660 - Introduction to Graphic Design Credit Hours: 4",
+            "COMM 4420 - Foundations of HCI Usability Credit Hours: 4",
+            "COMM 4470 - Information Design Credit Hours: 4",
+            "COMM 4690 - Interface Design: Hypermedia Theory and Application Credit Hours: 4",
+            "COMM 4780 - Interactive Narrative Credit Hours: 4",
+            "COMM 4880 - Interactive Data Visualization Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Graphic Design Minor"
+        ]
+    },
+    "Language": {
+        "Choose 12 credits from the following, with at least 8 credit hours at, or above, the 2000-level and at least 3 credit hours at the 4000-level:": [
+            "Any 1000-level LANG course",
+            "Any 2000-level LANG course",
+            "Any 4000-level LANG course"
+        ]
+    },
+    "Linguistics": {
+        "Required:": [
+            "COGS 2340 - Introduction to Linguistics Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following, with at least 4 credits at the 4000-level:": [
+            "Any 1000-level LANG course",
+            "Any 2000-level LANG course",
+            "Any 4000-level LANG course"
+        ],
+        "Compatible minor:": [
+            "Linguistics Minor"
+        ]
+    },
+    "Literature and Creative Writing": {
+        "Choose 12 credits from the following, at least 4 credits at the 4000 level:": [
+            "1000-level LITR Elective",
+            "2000-level LITR Elective",
+            "4000-level LITR Elective",
+            "1000-level WRIT Elective",
+            "2000-level WRIT Elective"
+        ],
+        "Compatible minor:": [
+            "Literature and Creative Writing Minor"
+        ]
+    },
+    "Living in a World of Data": {
+        "Choose remaining credits from the following:": [
+            "IHSS 1140 - Minds and Machines Credit Hours: 4",
+            "IHSS 1150 - The Genome and You Credit Hours: 4",
+            "IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4",
+            "IHSS 1200 - Principles of Economics Credit Hours: 4",
+            "ITWS 1220 - IT and Society Credit Hours: 4",
+            "IHSS 1220 - IT and Society Credit Hours: 4",
+            "COMM 4470 - Information Design Credit Hours: 4",
+            "COMM 4690 - Interface Design: Hypermedia Theory and Application Credit Hours: 4",
+            "COMM 4880 - Interactive Data Visualization Credit Hours: 4",
+            "ECON 4220 - Applied Game Theory Credit Hours: 4",
+            "ECON 4270 - Behavioral Economics Credit Hours: 4",
+            "ECON 4570 - Econometrics Credit Hours: 4",
+            "PHIL 2100 - Critical Thinking Credit Hours: 4",
+            "PSYC 2100 - Critical Thinking Credit Hours: 4",
+            "PSYC 2310 - Research Methods and Statistics I Credit Hours: 4",
+            "PSYC 4350 - Mathematical Methods in Psychological Science Credit Hours: 4"
+        ]
+    },
+    "Logical Thinking": {
+        "Choose 12 credits from a choice of the following, with at least 4 credits at the 4000-level:": [
+            "IHSS 1140 - Minds and Machines Credit Hours: 4",
+            "IHSS 1235 - Are Humans Rational? Credit Hours: 4",
+            "PSYC 2100 - Critical Thinking Credit Hours: 4",
+            "PHIL 2100 - Critical Thinking Credit Hours: 4",
+            "PHIL 2140 - Introduction to Logic Credit Hours: 4",
+            "PHIL 4140 - Intermediate Logic Credit Hours: 4",
+            "PHIL 4420 - Computability and Logic Credit Hours: 4",
+            "PHIL 4960  - Inductive Logic Credit Hours: 4",
+            "PHIL 4961  - Intermediate Formal Logic & AI Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Philosophy of Logic, Computation, and Mind Minor"
+        ]
+    },
+    "Media and Culture": {
+        "Choose 12 credits from the following, with at least 4 credits at the 4000-level:": [
+            "IHSS 19XX  - Remixing in Digital Culture",
+            "IHSS 19XX  - Technology and the Top Ten",
+            "COMM 29XX - The Film Experience"
+        ],
+        "Compatible minor:": [
+            "Media and Culture Minor"
+        ]
+    },
+    "Mind, Brain, and Intelligence": {
+        "Required:": [
+            "COGS 2120 - Introduction to Cognitive Science Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "IHSS 1140 - Minds and Machines Credit Hours: 4",
+            "IHSS 1235 - Are Humans Rational? Credit Hours: 4",
+            "IHSS 1972 AI & Society Credit Hours: 4",
+            "COGS 4330 - Introduction to Cognitive Neuroscience Credit Hours: 4",
+            "COGS 4600 - Cognition and the Brain Credit Hours: 4",
+            "PSYC 4350 - Mathematical Methods in Psychological Science Credit Hours: 4",
+            "PSYC 4370 - Cognitive Psychology Credit Hours: 4",
+            "PSYC 4410 - Sensation and Perception Credit Hours: 4",
+            "PHIL 4961 - Intermediate Formal Logic & AI Credit Hours: 4",
+            "4000-level COGS Elective"
+        ],
+        "Compatible minor:": [
+            "Cognitive Science Minor"
+        ]
+    },
+    "Music and Culture": {
+        "Choose one of the following:": [
+            "IHSS 19XX  - Remixing in Digital Culture",
+            "IHSS 19XX - Technology and the Top 10"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 4960 - Performance Art Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Music Minor"
+        ]
+    },
+    "Music Composition and Production": {
+        "Choose one of the following:": [
+            "IHSS 19XX  - Remixing in Digital Culture",
+            "IHSS 19XX  - Technology and the Top Ten"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 2020 - Music and Technology I Credit Hours: 4",
+            "ARTS 2380 - Music and Sound I Credit Hours: 4",
+            "ARTS 2600 - Ensemble Nonlinear Credit Hours: 1",
+            "ARTS 2700 - Sound Recording and Production I Credit Hours: 4",
+            "ARTS 4160 - Music and Technology II Credit Hours: 4",
+            "ARTS 4380 - Music and Sound II Credit Hours: 4",
+            "ARTS 4700 - Sound Recording and Production II Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Music Minor"
+        ]
+    },
+    "Music Performance": {
+        "Choose one of the following:": [
+            "IHSS 19XX  - Remixing in Digital Culture"
+        ],
+        "Choose remaining credits from the following:": [
+            "ARTS 2180 - Deep Listening Credit Hours: 4",
+            "ARTS 2300 - Rensselaer Orchestra Credit Hours: 1 (course can be repeated multiple times for credit)",
+            "ARTS 2310 - Rensselaer Concert Choir Credit Hours: 1 (course can be repeated multiple times for credit)",
+            "ARTS 2350 - Chamber Music Ensemble Credit Hours: 1 (course can be repeated multiple times for additional credit)",
+            "ARTS 2600 - Ensemble Nonlinear Credit Hours: 1",
+            "ARTS 2960 - Topics in the Arts Credit Hours: 2 to 4",
+            "(Fusion Ensembleor Contemporary Improv Ensemble )",
+            "ARTS 4180 - Topics in Deep Listening Credit Hours: 4",
+            "ARTS 2750 - Private Music Lessons Credit Hours: 1 (course can be repeated multiple times for credit)"
+        ],
+        "Compatible minor:": [
+            "Music Minor"
+        ]
+    },
+    "Philosophy": {
+        "Choose one of the following:": [
+            "1000-level PHIL Elective",
+            "IHSS 19XX Philosophy, Technology, and the Human Future"
+        ],
+        "Choose remaining credits from the following with at least 4 credits at the 4000-level:": [
+            "2000-level PHIL Elective",
+            "4000-level PHIL Elective"
+        ],
+        "Compatible minor:": [
+            "Philosophy Minor"
+        ]
+    },
+    "Public Health": {
+        "Choose one of the following:": [
+            "IHSS 1150 - The Genome and You Credit Hours: 4",
+            "PSYC 1200 - Introduction to Psychological Science Credit Hours: 4",
+            "STSO 1110 - Science, Technology, and Society Credit Hours: 4"
+        ],
+        "Required:": [
+            "STSO 2520 - Sociology Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "COGS 4610 - Stress and the Brain Credit Hours: 4",
+            "COGS 4700 - Hormones, Brain, and Behavior Credit Hours: 4",
+            "PSYC 4500 - Drugs, Society, and Behavior Credit Hours: 4",
+            "PSYC 4610 - Stress and the Brain Credit Hours: 4",
+            "PSYC 4700 - Hormones, Brain, and Behavior Credit Hours: 4",
+            "STSO 4420 - History of Medicine Credit Hours: 4",
+            "STSO 4440 - History of Mental Health Credit Hours: 4",
+            "STSO 4250 - Bioethics Credit Hours: 4",
+            "STSO 4430 - Drugs in History Credit Hours: 4",
+            "STSO 4260 - Food, Farms, and Famine Credit Hours: 4",
+            "STSO 4400 - Medicine, Culture, and Society Credit Hours: 4",
+            "STSO 4560 - Gender, Science, and Technology Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Public Health Minor"
+        ]
+    },
+    "Science, Technology, and Society": {
+        "Choose one of the following: a minimum of 4 credits must be completed at the 4000-level": [
+            "4000-level STSO course Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Science, Technology, and Society Minor"
+        ]
+    },
+    "Strategic Communication": {
+        "Choose 12 credits of the following, with at least 4 credits at the 4000 level:": [
+            "1000-level COMM Elective",
+            "2000-level COMM Elective",
+            "IHSS 19XX  - Writing and Society",
+            "Any 4000-level WRIT course"
+        ],
+        "Compatible minor:": [
+            "Strategic Communication Minor"
+        ]
+    },
+    "Studio Arts": {
+        "Required:": [
+            "ARTS 1050 - Art History Credit Hours: 4",
+            "or",
+            "ARTS 2540 - The Multimedia Century Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following:": [
+            "1000-level ARTS Elective"
+        ],
+        "Compatible minor:": [
+            "Studio Arts"
+        ]
+    },
+    "Sustainability": {
+        "Required:": [
+            "STSO 2300 - Environment and Society Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following: must complete at least 4 credits at the 4000-level": [
+            "IHSS 1960 - Designing Climate Justice Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Sustainability Studies Minor"
+        ]
+    },
+    "Thinking with Science": {
+        "Choose 12 credits from the following:": [
+            "IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4",
+            "IHSS 1175 - Well-being: Cultivating Curiosity Credit Hours: 4",
+            "IHSS 1570 - War and Technology: Past, Present, and Future Credit Hours: 4",
+            "STSO 1110 - Science, Technology, and Society Credit Hours: 4",
+            "ARTS 4240 - Eco Chic: Living Art Credit Hours: 4",
+            "ARTS 4960 - Topics in the Arts Credit Hours: 2 to 4",
+            "(Bio-Punk: Arts Lab Practices)",
+            "COMM 2520 - Communication Theory and Practice Credit Hours: 4",
+            "LITR 4150 - Science and Fiction Credit Hours: 4",
+            "PHIL 2100 - Critical Thinking Credit Hours: 4",
+            "PHIL 2400 - Philosophy of Biology Credit Hours: 4",
+            "PHIL 4130 - Philosophy of Science Credit Hours: 4",
+            "PSYC 2100 - Critical Thinking Credit Hours: 4",
+            "STSO 4510 - History of American Technology Credit Hours: 4",
+            "STSO 4530 - History of Science and Technology Credit Hours: 4",
+            "STSO 4400 - Medicine, Culture, and Society Credit Hours: 4",
+            "WRIT 2110 - Strategic Writing Credit Hours: 4",
+            "WRIT 4410 - Research Writing Credit Hours: 4",
+            "WRIT 4550 - Proposing and Persuading Credit Hours: 4"
+        ]
+    },
+    "Transfer Student Arts and Humanities": {
+        "Choose 12 credits of the following course prefixes, with at least 8 credit hours at, or above, the 2000 level and at least 3 credit hours at the 4000 level:": [
+            "ARTS",
+            "COMM",
+            "GSAS",
+            "IHSS",
+            "LANG",
+            "LITR",
+            "PHIL",
+            "STSH",
+            "WRIT"
+        ]
+    },
+    "Transfer Student Social Science": {
+        "Choose 12 credits of the following course prefixes, with at least 8 credit hours at, or above, the 2000 level and at least 3 credit hours at the 4000 level:": [
+            "COGS",
+            "ECON",
+            "GSAS",
+            "IHSS",
+            "PSYC",
+            "STSS"
+        ]
+    },
+    "Understanding Human Behavior": {
+        "Required:": [
+            "PSYC 1200 - Introduction to Psychological Science Credit Hours: 4"
+        ],
+        "Choose remaining credits from the following, with at least 4 credits at the 4000 level::": [
+            "IHSS 19XX  - Understanding Empathy",
+            "2000-level PSYC Elective",
+            "4000-level PSYC Elective"
+        ],
+        "Compatible minors:": [
+            "General Psychology Minor",
+            "Psychological Science Minor"
+        ]
+    },
+    "Video, Performance, and Social Practice": {
+        "Choose one of the following:": [
+            "IHSS 19XX  - Remixing in Digital Culture",
+            "IHSS 19XX  - Technology and the Top Ten"
+        ],
+        "Choose remaining credits from the following, with at least 4 credits at the 4000 level:": [
+            "ARTS 2010 - Intermediate Video Credit Hours: 4",
+            "ARTS 2540 - The Multimedia Century Credit Hours: 4",
+            "ARTS 4040 - Rethinking Documentary: Video Production Credit Hours: 4",
+            "ARTS 4250 - Art, Community, and Technology Credit Hours: 4",
+            "ARTS 4130 - New Media Theory Credit Hours: 4",
+            "ARTS 4240 - Eco Chic: Living Art Credit Hours: 4",
+            "ARTS 4560 - Hactivism Credit Hours: 4",
+            "ARTS 4630 - Writing and Directing for Video Credit Hours: 4",
+            "ARTS 4640 - Science Fictions Credit Hours: 4",
+            "ARTS 4120 - Biopunk: Arts Lab Practice Credit Hours: 4",
+            "ARTS 4140 - Queer Ecologies Credit Hours: 4",
+            "ARTS 4050 - Advanced Video Media Studio Credit Hours: 4"
+        ],
+        "Compatible minors:": [
+            "Video, Performance, and Social Practice",
+            "Electronic Arts Minor"
+        ]
+    },
+    "Well-being: Body and Mind": {
+        "Choose one of the following:": [
+            "IHSS 19XX  - Understanding Empathy"
+        ],
+        "Choose remaining credits from the following, with at least 4 credits at the 4000 level:": [
+            "ARTS 2310 - Rensselaer Concert Choir Credit Hours: 1 (course can be repeated multiple times for credit)",
+            "ARTS 2960 - Topics in the Arts Credit Hours: 2 to 4",
+            "(Private Lessons, Credit Hours: 1)",
+            "COGS 4610 - Stress and the Brain Credit Hours: 4",
+            "COGS 4700 - Hormones, Brain, and Behavior Credit Hours: 4",
+            "PHIL 4240 - Ethics Credit Hours: 4",
+            "PSYC 1200 - Introduction to Psychological Science Credit Hours: 4",
+            "PSYC 4430 - Psychology of Mindfulness Credit Hours: 4",
+            "PSYC 4440 - Sensibilities Credit Hours: 4",
+            "PSYC 4500 - Drugs, Society, and Behavior Credit Hours: 4",
+            "PSYC 4610 - Stress and the Brain Credit Hours: 4",
+            "PSYC 4700 - Hormones, Brain, and Behavior Credit Hours: 4",
+            "PSYC 4730 - Positive Psychology Credit Hours: 4",
+            "PSYC 4960 - Topics in Psychology Credit Hours: 1 to 4",
+            "(Empathy and Emotion)",
+            "WRIT 2320 - Creative Writing: Creative Non-Fiction Credit Hours: 4",
+            "WRIT 2330 - Creative Writing:  The Short Story Credit Hours: 4"
+        ],
+        "Compatible minor:": [
+            "Well-being"
+        ]
+    }
+}
