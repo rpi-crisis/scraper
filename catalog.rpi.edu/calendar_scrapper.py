@@ -1,3 +1,15 @@
+"""
+Note: This is currently a work in-progress. The main functionality
+works. However, there are some inconsistencies not yet accounted for.
+
+Notice in the HTML of the table on the catalog website, there are some
+dates/events in divs as well as ps. In addition, there may be multiple
+within a div section.
+
+This portion will need to be resolved before the json is fully functional.
+"""
+
+
 import requests as rq, json
 from bs4 import BeautifulSoup as bs
 
@@ -9,6 +21,7 @@ def parse_table_rows(out, rows):
         # make sure row has contents
         if len(row)==0: continue
         # bold means it's a date
+        # if (row.findAll("em", recursive=True)): continue
         if (row.findAll("strong", recursive=False)):
             try:
                 data = row.text.strip()
@@ -69,8 +82,8 @@ table_fall = tables[0]
 table_spring = tables[1]
 
 # get data from inside the tables
-rows_fall = table_fall.findAll("p", recursive = False)
-rows_spring = table_spring.findAll("p", recursive = False)
+rows_fall = table_fall.findAll(["p","div"], recursive = False)
+rows_spring = table_spring.findAll(["p","div"], recursive = False)
 
 # initialize dictionaries
 calendar_fall = {}
