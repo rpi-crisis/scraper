@@ -20,17 +20,19 @@ def parse_text(out, soup):
     
     # split the data accordingly
     for code in codes:
+        # initialize inner dictionary
         codes_dict = {}
+        # split each code
         code = code.text.strip().split("\n")
         department = code[0].strip()
         for item in code:
+            # split code and subject 
             item = item.strip()
             if item != department:
-                codes_dict[department]
+                item = item.split(" ", 1)
+                codes_dict[item[0]] = item[1]
 
         data[department] = codes_dict
-        print(code)
-
 
 
 if __name__ == "__main__":
@@ -42,6 +44,7 @@ if __name__ == "__main__":
     data = {}
     parse_text(data, soup)
 
-    # Ouptut to file
-    out = open("subjectCodes.json", "w")
+    # Ouptut to file (this can be altered, .. goes back a directory)
+    out = open("../subjectCodes.json", "w")
     json.dump(data, out)
+    out.close()
