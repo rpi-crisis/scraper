@@ -1,3 +1,12 @@
-# data
-This file is used to scrape the data from http://catalog.rpi.edu/content.php?catoid=22&navoid=542
-and convert it into a useful format
+# CRISIS Scrapers
+
+## Scrapers
+
+- [ ] Individual courses
+- [ ] Major
+- [ ] Minor
+- [ ] HASS Pathways
+
+## Infrastructure
+
+- [ ] GitHub action or similar to run scrapers and commit to [the data repository](https://github.com/rpi-crisis/data).
