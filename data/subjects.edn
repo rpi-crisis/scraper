@@ -1,0 +1,40 @@
+{:soa {:arch "Architecture"
+       :lght "Lighting"}
+ :soe {:bmed "Biomedical Engineering"
+       :chme "Chemical Engineering"
+       :civl "Civil Engineering"
+       :ecse "Electrical, Computer, and Systems Engineering"
+       :engr "General Engineering"
+       :enve "Environmental Engineering"
+       :esci "Engineering Science"
+       :isye "Industrial and Systems Engineering"
+       :mane "Mechanical, Aerospace, and Nuclear Engineering"
+       :mtle "Materials Science and Engineering"}
+ :sos {:astr "Astronomy"
+       :bcbp "Biochemistry and Biophysics"
+       :biol "Biology"
+       :chem "Chemistry"
+       :csci "Computer Science"
+       :isci "Interdisciplinary Science"
+       :erth "Earth and Environmental Science"
+       :math "Mathematics"
+       :matp "Mathematical Programming, Probability, and Statistics"
+       :phys "Physics"}
+ :hass {:arts "Arts"
+        :comm "Communication"
+        :ihss "Interdisciplinary Studies"
+        :lang "Foreign Languages"
+        :litr "Literature"
+        :phil "Philosophy"
+        :stso "Science and Technology Studies"
+        :writ "Writing"
+        :cogs "Cognitive Science"
+        :econ "Economics"
+        :gsas "Games Simulation Arts and Sciences"
+        :psyc "Psychology"}
+ :itws {:itws "Information Technology and Web Science"}
+ :lsom {:mgmt "Management"}
+ :misc {:ienv "Interdisciplinary Environmental Courses"
+        :usaf "Aerospace Studies (Air Force ROTC)"
+        :usar "Military Science (Army ROTC)"
+        :usna "Naval Science (Navy ROTC)"}}
