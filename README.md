@@ -1,2 +1,2 @@
-# data
-This repository will be dedicated to website data and web-scraping for the CRISIS webpage.
+# Scraper
+This repository contains the web scraper utilities to scrape the data (course, major, minor, HASS, etc.) from various RPI webpages and compile it into a useful format.
