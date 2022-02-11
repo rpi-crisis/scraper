@@ -28,7 +28,7 @@ an object with the following form:
 | `"capacity"`  | Total capacity of the section.                      | `30`      |
 | `"enrolled"`  | Number of current students enrolled in the section. | `25`      |
 | `"remaining"` | `capacity - enrolled`                               | `5`       |
-| `"meetings"`  | List of meeting objects                             | See below          |
+| `"meetings"`  | List of meeting objects                             | See below |
 
 ## Meeting Properties
 
