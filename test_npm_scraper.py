@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import requests as rq
-import re, json, sys, os
+import re, json, sys, os, json
 
 HEADER = lambda x: '\033[95m' + x + '\033[0m'
 OKBLUE = lambda x: '\033[94m' + x + '\033[0m'
@@ -66,19 +66,17 @@ def print_data(data):
 					WARNING(elps(package["auth"], len_auth)),
 					OKBLUE(elps(package["desc"], len_desc)))
 
-def main():
-	args = sys.argv
 
-	if len(args) != 2:
-		print("ERROR: invalid arguments!")
-		get_usage()
-		exit(0)
+def print_json(data):
+	print(json.dumps(data))
 
-	site = f"https://www.npmjs.com/search?q={args[1]}"
+
+def parse_page(page, search):
+	page = f"https://www.npmjs.com/search?q={search}&page={page}&perPage=20"
 
 	data = []
 
-	html = rq.get(site).content.decode('utf-8')
+	html = rq.get(page).content.decode('utf-8')
 	soup = bs(html, 'html.parser')
 
 	container = soup.find("div", { "class": "d0963384" })
@@ -87,6 +85,45 @@ def main():
 	for section in sections:
 		data.append(parse_section(section))
 
-	print_data(data)
+	return data
+
+
+def parse_args(args):
+	as_json = True
+	pages = 1
+	search_term = ""
+
+	if len(args) < 2:
+		print("ERROR: No search term specified.")
+		exit(0)
+
+	search_term = args[1]
+
+	for arg in args[2:]:
+		if arg == "--json":
+			as_json = True
+			continue
+
+		regex = re.compile(r"\-pages=(.+)")
+		match = regex.match(arg)
+
+		if match:
+			pages = match.group(0)
+
+	return [ as_json, pages, search_term ]
+
+
+def main():
+	[as_json, pages, search_term] = parse_args(sys.argv)
+
+	data = []
+
+	for i in range(pages):
+		data.extend(parse_page(i, search_term))
+
+	if as_json:
+		print_json(data)
+	else:
+		print_data(data)
 
 if __name__ == '__main__': main()
