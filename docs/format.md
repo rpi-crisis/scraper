@@ -1,100 +1,119 @@
 # Data Documentation
 
-The data for CRISIS are stored as a dictionary, where each key is a combination of a course's department and course number, in the form: `'DEPT-CRSE'`. A keys corresponding value is an object which holds several properties about the course.
+The data for CRISIS are stored as a json array, where each element is
+an object with the following form:
 
-## Properties
+## Course Properties
 
-| Property | Description | Example |
-|-|-|-|
-| `"title"`       | Course name. | `"CALCULUS I"` |
-| `"crns"`        | List of CRNs from this course's sections. | `[61326, 60309,...]` |
-| `"department"`  | Department code. | `"MATH"` |
-| `"id_num"`      | Course code. | `1010` |
-| `"credits"`     | Number of credits for the course. May be a range of values. | `"4.0"`, or `"1.0-4.0"` |
-| `"ci"`          | Whether this course is **c**ommunication **i**ntensive. | `false` |
-| `"description"` | Course description. | `"Functions, limits, continuity, derivatives, implicit..."` |
-| `"offered"`     | When the course can be taken. | `"Fall and spring terms annually."` |
-| `"prereq"`      | List of prerequisite courses. | `["MATH 1000", "MATH 1001"]` |
-| `"coreq"`       | List of corequisite courses. | `["MATH 1002", "MATH 1003"]` |
-| `"cross"`       | List of cross-listed classes. | `["CSCI 0123", "PSYC 4567"]` |
-| `"required_by"` | Contains course requirements for major, minor, etc.
-| |`"minor"` List of minors which require this course. | `["MATH", "GSAS"]` |
-| |`"major"` List of majors which require this course. | `["CSCI", "COGS"]` |
-| | `"hass"` List of HASS pathways that require this course. | `["Artificial Intelligence", "Mind, Brain, and Intelligence"]` |
-| `"transfer"` | A list of courses which can be redeemed when transferring to RPI. | |
-| | `"school"` Name of the college. | `"Univ Texas Austin"` |
-| | `"location"` Location of the college. | `"Texas"` |
-| | `"title"` Title of course at the college. | `"INTRODUCTION TO PSYCHOLOGY"` |
-| | `"id"` Course ID or code. | `"PSY 301"` |
+| Property        | Description                                                 | Example                                                     |
+|-----------------|-------------------------------------------------------------|-------------------------------------------------------------|
+| `"title"`       | Course name.                                                | `"CALCULUS I"`                                              |
+| `"department"`  | Department code.                                            | `"MATH"`                                                    |
+| `"id"`          | Course code.                                                | `1010`                                                      |
+| `"credits"`     | Number of credits for the course. May be a range of values. | `"4.0"`, or `"1.0-4.0"`                                     |
+| `"ci"`          | Whether this course is **c**ommunication **i**ntensive.     | `false`                                                     |
+| `"description"` | Course description.                                         | `"Functions, limits, continuity, derivatives, implicit..."` |
+| `"offered"`     | When the course can be taken.                               | `"Fall and spring terms annually."`                         |
+| `"prereq"`      | (TODO) Free-form string of prerequisite courses.            | `"MATH 1000 and MATH 1001"`                                 |
+| `"coreq"`       | (TODO) Free-form string of corequisite courses.             | `"MATH 1002 and MATH 1003"`                                 |
+| `"cross"`       | (TODO) Free-form string of cross-listed courses.            | `"CSCI 0123 and PSYC 4567"`                                 |
+| `"sections"`    | A list of section objects                                   | See below                                                   |
+
+## Section Properties
+
+| Property      | Description                                         | Example   |
+|---------------|-----------------------------------------------------|-----------|
+| `"crn"`       | CRN of the section.                                 | `"50039"` |
+| `"section"`   | Section number.                                     | `"01"`    |
+| `"capacity"`  | Total capacity of the section.                      | `30`      |
+| `"enrolled"`  | Number of current students enrolled in the section. | `25`      |
+| `"remaining"` | `capacity - enrolled`                               | `5`       |
+| `"meetings"`  | List of meeting objects                             | See below |
+
+## Meeting Properties
+
+| Property        | Description                            |                                         |
+|-----------------|----------------------------------------|-----------------------------------------|
+| `"time"`        | Time table of the meeting.             | `"2:00 pm - 3:20 pm"`                   |
+| `"days"`        | Which days the meetings take place on. | `"MR"`                                  |
+| `"location"`    | Room number or online status.          | `"Darrin Communications Center 308"`    |
+| `"type"`        | Lecture/recitation/exam etc.           | `"Lecture"`                             |
+| `"instructors"` | Instructor(s) for the meeting.         | `"Wesley D Turner, Shianne M. Hulbert"` |
 
 ## Example Template
-```
-"MATH-1010": {
-  "title": "CALCULUS I",
-  "department": "MATH",
-  "id_num": 1010,
-  "credits": "4.0",
-  "ci": false,
-  "description": "Functions, limits, continuity, derivatives, implicit differentiation, related rates, maxima and minima, elementary transcendental functions, introduction to definite integral with applications to area and volumes of revolution.",
-  "offered": "Fall and spring terms annually.",
-  "prereq": [
-    "MATH 1000",
-    "MATH 1001"
-  ],
-  "coreq": [
-    "MATH 1002",
-    "MATH 1003"
-  ],
-  "cross": [
-    "CSCI 0123",
-    "PSYC 4567"
-  ],
-  "required-by": {
-    "major": [
-      "MATH",
-      "GSAS"
-    ],
-    "minor": [
-      "CSCI",
-      "COGS"
-    ],
-    "hass": []
-  },
-  "transfer": [
-    {
-      "school": "Univ of Connecticut",
-      "location": "Connecticut",
-      "title": "CALCULUS I",
-      "id": "MATH 1131Q"
-    },
-    {
-      "school": "Univ Of New Haven",
-      "location": "Connecticut",
-      "title": "CALCULUS I",
-      "id": "M 117"
-    }
-  ]
-}
-```
 
-## Blank Template
-```
-"NULL-0000": {
-  "title": "",
-  "department": "",
-  "id_num": 0000,
-  "credits": "0.0",
-  "ci": false,
-  "description": "",
-  "offered": "",
-  "prereq": [],
-  "coreq": [],
-  "cross": [],
-  "required-by": {
-    "major": [],
-    "minor": [],
-    "hass": []
-  },
-  "transfer": []
-}
+```json
+[
+  {
+    "department": "CSCI",
+    "id": 1100,
+    "name": "COMPUTER SCIENCE I",
+    "description": "--description--",
+    "prereqs": "--prerequesites--",
+    "coreqs": "--corequesites--",
+    "crosslistings": "--crosslistings--",
+    "sections": [
+      {
+        "crn": "50039",
+        "section": "01",
+        "meetings": [
+          {
+            "time": "2:00 pm - 3:20 pm",
+            "days": "MR",
+            "location": "Online ",
+            "type": "Lecture",
+            "instructors": "Wesley D Turner, Shianne M. Hulbert"
+          },
+          {
+            "time": "10:00 am - 11:50 am",
+            "days": "T",
+            "location": "Low Center for Industrial Inn. 3116",
+            "type": "Lecture",
+            "instructors": "Wesley D Turner, Shianne M. Hulbert"
+          },
+          {
+            "time": "6:00 pm - 7:50 pm",
+            "days": "R",
+            "location": "Darrin Communications Center 308",
+            "type": "Lecture",
+            "instructors": "Wesley D Turner, Shianne M. Hulbert"
+          }
+        ],
+        "capacity": 30,
+        "enrolled": 25,
+        "remaining": 5
+      },
+      {
+        "crn": "50373",
+        "section": "02",
+        "meetings": [
+          {
+            "time": "2:00 pm - 3:20 pm",
+            "days": "MR",
+            "location": "Online ",
+            "type": "Lecture",
+            "instructors": "Wesley D Turner, Shianne M. Hulbert"
+          },
+          {
+            "time": "10:00 am - 11:50 am",
+            "days": "T",
+            "location": "Carnegie Building 208",
+            "type": "Lecture",
+            "instructors": "Wesley D Turner, Shianne M. Hulbert"
+          },
+          {
+            "time": "6:00 pm - 7:50 pm",
+            "days": "R",
+            "location": "Darrin Communications Center 308",
+            "type": "Lecture",
+            "instructors": "Wesley D Turner, Shianne M. Hulbert"
+          }
+        ],
+        "capacity": 36,
+        "enrolled": 29,
+        "remaining": 7
+      }
+    ]
+  }
+]
 ```
