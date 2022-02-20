@@ -1,13 +1,9 @@
 from tracemalloc import start
 from bs4 import BeautifulSoup
 import requests
-import time
 r = requests.get("http://catalog.rpi.edu/content.php?catoid=22&navoid=542")
-#print(r.content)
-start_time = time.time()
 baccalaureate = {}
 soup = BeautifulSoup(r.content, 'html5lib')
-#print(soup)
 table = soup.find("td", class_="block_content")
 major_elements = table.find_all("ul", class_="program-list")
 ba_elements = major_elements[0].find_all("a")
@@ -24,4 +20,3 @@ for z in ba_elements:
     requirement_tr = trs[3]
     baccalaureate[major_title]["description"] = description_tr
     baccalaureate[major_title]["requirements"] = requirement_tr    
-print(baccalaureate)
