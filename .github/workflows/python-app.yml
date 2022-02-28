@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Lint with flake8
+    - name: Lint with flake8 requests bs4
       run: |
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
@@ -37,7 +37,7 @@ jobs:
       working-directory: ./rpi-crisis/data
       run: |
            git config --local user.email "action@github.com"
-           git config --local user.name "GitHub Action
+           git config --local user.name "GitHub Action"
            git add -A
            git commit -m "update data" -a
       
