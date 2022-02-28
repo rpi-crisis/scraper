@@ -10,7 +10,7 @@ an object with the following form:
 | `"title"`       | Course name.                                                | `"CALCULUS I"`                                              |
 | `"department"`  | Department code.                                            | `"MATH"`                                                    |
 | `"id"`          | Course code.                                                | `1010`                                                      |
-| `"credits"`     | Number of credits for the course. May be a range of values. | `"4.0"`, or `"1.0-4.0"`                                     |
+| `"credits"`     | Number of credits for the course. May be a range of values. | `"4"`, or `"1-4"`                                           |
 | `"ci"`          | Whether this course is **c**ommunication **i**ntensive.     | `false`                                                     |
 | `"description"` | Course description.                                         | `"Functions, limits, continuity, derivatives, implicit..."` |
 | `"offered"`     | When the course can be taken.                               | `"Fall and spring terms annually."`                         |
@@ -43,11 +43,12 @@ an object with the following form:
 ## Example Template
 
 ```json
-[
-  {
+{
+  "CSCI-1100": {
+    "title": "COMPUTER SCIENCE I",
     "department": "CSCI",
     "id": 1100,
-    "name": "COMPUTER SCIENCE I",
+    "credits": "4"
     "description": "--description--",
     "prereqs": "--prerequesites--",
     "coreqs": "--corequesites--",
@@ -56,6 +57,9 @@ an object with the following form:
       {
         "crn": "50039",
         "section": "01",
+        "capacity": 30,
+        "enrolled": 25,
+        "remaining": 5,
         "meetings": [
           {
             "time": "2:00 pm - 3:20 pm",
@@ -78,10 +82,7 @@ an object with the following form:
             "type": "Lecture",
             "instructors": "Wesley D Turner, Shianne M. Hulbert"
           }
-        ],
-        "capacity": 30,
-        "enrolled": 25,
-        "remaining": 5
+        ]
       },
       {
         "crn": "50373",
@@ -115,5 +116,5 @@ an object with the following form:
       }
     ]
   }
-]
+}
 ```
