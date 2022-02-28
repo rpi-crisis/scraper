@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import requests as rq
-import re, json, sys, os, json
+import re, json, sys, os
 
 W_CATALOG = "http://catalog.rpi.edu/content.php?"
 W_COURSE = "http://catalog.rpi.edu/preview_course.php?"
