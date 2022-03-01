@@ -1,0 +1,15 @@
+Reqs:
+	[PREREQ] [COREQ]
+
+Coids:
+  (0000), (0001), ..., (9998), (9999)
+
+Depts:
+ (ARCH), (ARTS), ..., (USAF), (USNA)
+
+Logical Ops:
+ {OR}, {AND} {NOT}
+
+Special tokens:
+ <INSTRUCTOR> <M.ARCH.> <SENIOR> <JUNIOR> <SOPHOMORE> <FRESHMAN>
+ <RECOMMEND> <REQUIRE> <RESTRICT> <EXCEPT>
