@@ -1,62 +1,62 @@
 Prerequisite: ARCH 1200.
-Corequisite ARCH 2150.
+Corequisite ARCH 2150 .
 Prerequisite: ARCH 2510 except M.Arch. students.
 Prerequisite: ARCH 2510 except M.Arch. students.
-Prerequisites: ARCH 2370 Corequisites: PHYS 1500, ARCH 2830.
-Corequisites: ARCH 2800.
-Prerequisite: ARCH 2520. Corequisites: ARCH 2810.
-Prerequisite: ARCH 2530, Corequisite: ARCH 2820
-Prerequisite: ARCH 2540; corequisite: ARCH 2830
-Corequisite: ARCH 2520.
-Prerequisite: ARCH 2800; Corequisite: ARCH 2530.
-Prerequisiste: ARCH 2810; Corequisite: ARCH 2540.
-Prerequisite: ARCH 2820; Corequisite: ARCH 2550.
+Prerequisites: ARCH 2370  Corequisites: PHYS 1500, ARCH 2830.
+Corequisites: ARCH 2800 .
+Prerequisite: ARCH 2520 . Corequisites: ARCH 2810 .
+Prerequisite: ARCH 2530 , Corequisite: ARCH 2820
+Prerequisite: ARCH 2540 ; corequisite: ARCH 2830
+Corequisite: ARCH 2520 .
+Prerequisite: ARCH 2800 ; Corequisite: ARCH 2530 .
+Prerequisiste: ARCH 2810 ; Corequisite: ARCH 2540 .
+Prerequisite: ARCH 2820 ; Corequisite: ARCH 2550 .
 Prerequisite: ARCH 2850
-ARCH 2330.
-Prerequisite: ARCH 4100.
-Prerequisites: ARCH 2150, ARCH 2160.
-Prerequisite: ARCH 2150, ARCH 2160.
-ARCH 4100.
-Prerequisite: ARCH 4120n.
+ARCH 2330 .
+Prerequisite: ARCH 4100 .
+Prerequisites: ARCH 2150 , ARCH 2160 .
+Prerequisite: ARCH 2150 , ARCH 2160 .
+ARCH 4100 .
+Prerequisite: ARCH 4120 n.
 Prerequisites: ARCH 2510 except M.Arch. students, ARCH 2350, ARCH 2330.
-Prerequisites: ARCH 2360, ARCH 4550, ARCH 4740.
-Prerequisite or Corequisite: ARCH 4520.
-Corequisite: Students in ARCH 4830 are required to coregister.
+Prerequisites: ARCH 2360 , ARCH 4550 , ARCH 4740 .
+Prerequisite or Corequisite: ARCH 4520 .
+Corequisite: Students in ARCH 4830  are required to coregister.
 Prerequisites: ARCH 2510 except M.Arch. students, and ARCH 2350.
-ARCH 4540 taken concurrently.
+ARCH 4540  taken concurrently.
 Prerequisite: ARCH 2360.
-ARCH 4730.
-Prerequisite: ARCH 2830.
-ARCH 2830 and ARCH 4780.
-Prerequisite: ARCH 4770.
+ARCH 4730 .
+Prerequisite: ARCH 2830 .
+ARCH 2830  and ARCH 4780 .
+Prerequisite: ARCH 4770 .
 ARCH 4770.
-Prerequisite: ARCH 4780.
-Prerequisite: ARCH 2830.
-Prerequisite: ARCH 4820. Corequisite: ARCH 4540.
+Prerequisite: ARCH 4780 .
+Prerequisite: ARCH 2830 .
+Prerequisite: ARCH 4820 . Corequisite: ARCH 4540 .
 Prerequisite: ARCH 4840 or instructor approval.
 ARCH 4860.
 College-level calculus, complex functions, and partial differential equations are prerequisite.
-Prrequisites: ARCH 4780 and ARCH 4830.
-Prerequisites: ARCH 4910 and ARCH 4790.
-Prerequisite: ARCH 5100.
-Prerequisite: ARCH 5140.
-Prerequisite: ARCH 5160.
-Prerequisite: ARCH 5200.
-ARCH 5380 taken concurrently.
-Prerequisite: ARCH 5300.
-Prerequisite: ARCH 5310.
-ARCH 5330 taken concurrently.
-Prerequisite: ARCH 5380.
+Prrequisites: ARCH 4780  and ARCH 4830 .
+Prerequisites: ARCH 4910  and ARCH 4790 .
+Prerequisite: ARCH 5100 .
+Prerequisite: ARCH 5140 .
+Prerequisite: ARCH 5160 .
+Prerequisite: ARCH 5200 .
+ARCH 5380  taken concurrently.
+Prerequisite: ARCH 5300 .
+Prerequisite: ARCH 5310 .
+ARCH 5330  taken concurrently.
+Prerequisite: ARCH 5380 .
 Prerequisites for undergraduates: ARCH 2360 or equivalent or ARCH 4740 or equivalent. Corequisite for M.Arch. 1: ARCH 6610.
 Prerequisites: ARCH 6310, ARCH 6320, or departmental approval.
 Prerequisites: ARCH 6340 or equivalent, ARCH 6350 or equivalent, ARCH 6310 or equivalent, and ARCH 6320 or equivalent.
-Prerequisite: ARCH 5210.
-Prerequisite: ARCH 6610.
+Prerequisite: ARCH 5210 .
+Prerequisite: ARCH 6610 .
 Prerequisite: ARCH 6620.
 Prerequisite: ARCH 5110.
 Prerequisite: ARCH 6680.
 Prerequisite: ARCH 6810.
-ARCH 6910.
+ARCH 6910 .
 Prerequisite: ARTS 1030 or permission of instructor.
 Prerequisite: ARTS 1020 or permission of instructor.
 Prerequisites: ARTS 1020, ARTS 1040, or ARTS 1200.
@@ -87,7 +87,7 @@ ARTS 1020 or permission of instructor.
 Junior or senior standing, or permission of instructor.
 Prerequisites: ARTS 1030 or permission of instructor.
 Prerequisite: ARTS 1020, ARTS 1030, ARTS 1040, ARTS 1200, ARTS 2020, ARTS 2380, ARTS 2220, IHSS 1030, IHSS 1040, IHSS 1170, IHSS 1180, ARTS 4120, ARTS 4140, or permission of instructor.
-ARTS 2700.
+ARTS 2700 .
 Senior EMAC and EART majors only.
 Creative Seminar I, senior EMAC and EART majors only.
 Prerequisite: one related 2000-level arts course or permission of instructor.
@@ -138,8 +138,8 @@ Prerequisite: BCBP 4760  or permission of instructor.
 Prerequisites: BCBP 4760 , MATH 1020 , and PHYS 1200  or equivalents.
 Restricted to first year BCBP graduate students.
 Permission of instructor.
-BIOL 1015 is a corequisite.
-Corequisite: BIOL 1010.
+BIOL 1015  is a corequisite.
+Corequisite: BIOL 1010 .
 Corequisite: BIOL 2125
 ERTH 1100  recommended, not required.
 Prerequisite: BIOL 2120 .
@@ -147,7 +147,7 @@ Permission of instructor.
 Permission of instructor.
 BIOL 1010 , BIOL 2120 , or permission of the instructor.
 Intended only for 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College.
-Prerequisite: BIOL 4110 I. Intended only for 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College.
+Prerequisite: BIOL 4110  I. Intended only for 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College.
 Prerequisites: BIOL 4100  and BIOL 4260  or equivalents, or by permission of instructor.
 BIOL 1010 , MATH 1010 , or permission of the instructor.
 Prerequisite: BIOL 4200  or by permission of the instructor.
@@ -199,7 +199,7 @@ Prerequisite: PHYS 1200.
 Prerequisite: ENGR 1100.
 Prerequisites: BMED 2100, BMED 2300, and BMED 2540
 Restricted to 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College or 4th Year RPI students who are in the B.S./M.D. Physician Engineer Program with Albany Medical College.
-BIOL 4110 or BMED 4110. Restricted to 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College or 4th Year RPI students who are in the B.S./M.D. Physician Engineer Program with Albany Medical College.
+BIOL 4110  or BMED 4110 . Restricted to 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College or 4th Year RPI students who are in the B.S./M.D. Physician Engineer Program with Albany Medical College.
 Restricted to 3rd Year RPI students who are in the combined B.S./M.D. Physician Scientist Program with Albany Medical College or 4th Year RPI students who are in the B.S./M.D. Physician Engineer Program with Albany Medical College.
 Prerequisites: ENGR 1100, PHYS 1100, MATH 2400
 Prerequisites: Senior BME status and ENGR 2050.
@@ -211,7 +211,7 @@ Prerequisites: BMED 2300.
 Prerequisites: MATH 2010 and ENGR 2600.
 Prerequisities: MATH 2010 and ENGR 2600.
 Prerequisite: BIOL 2120 or equivalent.
-Prerequisites: BMED 2540 or permission from instructor (non-BME students).
+Prerequisites: BMED 2540  or permission from instructor (non-BME students).
 Prerequisites: BMED 2540 or equivalent, junior/senior standing, or instructor permission.
 Prerequisite: BMED 2540 or equivalentt.
 Prerequisite: BMED 4250 or ENGR 2250 and a basic knowledge of human physiology.
@@ -301,7 +301,7 @@ Prerequisite: CIVL 2670.
 Prerequisite: CIVL 2630 or equivalent.
 Prerequisites: ENGR 2250 or ENGR 2530 or ECSE 4160 and senior standing.
 Senior standing.
-CIVL 4070 or CIVL 4080 or permission of instructor.
+CIVL 4070  or CIVL 4080  or permission of instructor.
 Prerequisite: CIVL 2670.
 Prerequisite: CIVL 2670.
 CIVL 1300 and Junior status.
@@ -321,9 +321,9 @@ Prerequisite: CIVL 6260.
 CIVL 6250.
 Prerequisite: CIVL 4080 or equivalent.
 Prerequisite: CIVL 4070 or equivalent.
-Prerequisites: CIVL 4020, CIVL 6310 Advanced Concrete, CIVL 6320
-CIVL 4070 or CIVL 4080 or permission of instructor.
-CIVL 4070 or CIVL 4080 or permission of instructor.
+Prerequisites: CIVL 4020 , CIVL 6310 Advanced Concrete, CIVL 6320
+CIVL 4070  or CIVL 4080  or permission of instructor.
+CIVL 4070  or CIVL 4080  or permission of instructor.
 Prerequisite: ENVE 4310.
 Prerequisite: CIVL 4440 or equivalent.
 Prerequisite: CIVL 4440.
@@ -339,14 +339,14 @@ Prerequisites: CIVL 6660, MANE 6660, CSCI 6860, or MATH 6860.
 Prerequisite: CIVL 6660 or MANE 6660.
 Prerequisite: CIVL 6660 or MANE 6660.
 Prerequisite: CIVL 6660 or MANE 6660.
-COGS 2340 or permission of the instructor.
+COGS 2340  or permission of the instructor.
 Prerequisite: PSYC 1200, or PSYC/PHIL 2120, or permission of instructor.
 Prerequisite: CSCI 2300 and GSAS 2540
-COGS 2340 or permission of the instructor.
+COGS 2340  or permission of the instructor.
 Prerequisite: COGS/PSYC 4330, or COGS/PSYC 4360, or PSYC 4370, or permission of instructor.
 Prerequisites:  PSYC/PHIL 2120 or PSYC 4310 or PSYC 4370 or permission of instructor.
 CSCI 1200 and CSCI 2300.
-COGS 2340 or permission of instructor.
+COGS 2340  or permission of instructor.
 A 2000-level computer science course or its equivalent, or permission of the instructor.
 Prerequisite: permission of a supervising faculty member (completion of the thesis/project/dissertation registration form).
 Prerequisite: admission to the doctoral program.
@@ -564,7 +564,7 @@ Prerequisites:  ECSE 2500, MATH 2010, and CSCI 1200.
 Prerequisite: ECSE 2500 or MATP 4600 or equivalent.
 Prerequisite: ECSE 6400.
 Prerequisite: CHEM 1100.
-Prerequisite: IHSS 2610.
+Prerequisite: IHSS 2610 .
 Prerequisites: ENGR 1100 or ECSE 1010 and CIVL 1200 or ENGR 1200 or ENGR 1400. Corequisite: PHYS 1200.
 Prerequisites: ENGR 1100 or ECSE 1010 and PHYS 1100. Corequisite: MATH 2400.
 Prerequisites: ENGR 1100 or ECSE 1010 and PHYS 1100. Corequisite: MATH 2400.
@@ -575,14 +575,14 @@ Prerequisite: MATH 1010.
 MATH 1020 or equivalent.
 Prerequisite: In conjunction with sophomore and junior courses.
 High school algebra. No previous experience with computer programming is required or expected.
-Prerequisite: ENGR 2020.
+Prerequisite: ENGR 2020 .
 Prerequisites: Both ENGR 1300 and ENGR 2710 are suggested.
 Prerequisite: ENGR 4710.
 B.S. in Engineering, ENGR 4710 or equivalent.
 Prerequisite: CHEM 1100, MATH 2400, and CIVL 2050 or permission of the instructor.  CHEM 1200 is recommended.
 Prerequisite: permission of the instructor.
 Prerequisite: ENGR 2050 and senior standing.
-Prerequisite: CIVL 2050, ENGR 2250, BMED-4250, MANE-2720, or CHME 4010.
+Prerequisite: CIVL 2050, ENGR 2250, BMED 4250, MANE 2720, or CHME 4010.
 Prerequisites: ENVE 2110 and CHEM 1200.
 Prerequisite: ENVE 2110.
 Prerequisite: ENVE 2110 and CHEM 1200.
@@ -626,12 +626,12 @@ Prerequisite: ERTH 4340.
 Prerequisite: permission of instructor.
 CHEM 1100 or permission of instructor; ERTH 1100 recommended but not required.
 Prerequisite: MATH 1020 or equivalent, or permission of instructor.
-Prerequisites: GSAS 2520, WRIT 2330 or permission of instructor.
+Prerequisites: GSAS 2520 , WRIT 2330  or permission of instructor.
 GSAS 4240
-GSAS 2520ng or COMM 4240 I.
-Prerequisites: GSAS 4540/CSCI4540: Game Development I
+GSAS 2520 ng or COMM 4240  I.
+Prerequisites: GSAS 4540/CSCI 454 I
 Prerequisite: GSAS 2510 and GSAS 2540
-Prerequisite: GSAS 4520 or permission of instructor.
+Prerequisite: GSAS 4520  or permission of instructor.
 HCDE 6310.
 Junior, senior, or graduate student status; introductory courses in biology, chemistry, and geology; environmentally oriented humanities/social sciences courses, or permission of instructor.
 Prerequisite: limited to first-year students enrolled in the Vasudha Living and Learning Community, or permission of instructor.
@@ -656,7 +656,7 @@ ISYE 1100 or permission of instructor.
 Prerequisite: ISYE 4600.
 ISYE 4140 or MATP 4600 and ISYE 4760 (MATP 4620) or permission of the instructor.
 MATH 1020 and ENGR 2600.
-probability and statistics (e.g., ENGR-2600 or MATP-4600), calculus, linear algebra and programming (e.g., MATH-1020 and CSCI-1010 or CSCI-1100).
+probability and statistics (e.g., ENGR 2600 or MATP 4600), calculus, linear algebra and programming (e.g., MATH 1020 and CSCI 1010 or CSCI 1100).
 Prerequisites: ENGR 2600 and MATH 1020.
 Prerequisite: MATP 4600 or equivalent calculus-based course.
 Prerequisites: ISYE 4140 or MATP 4600 and ISYE 4760 (MATP 4620) or permission of the instructor.
@@ -676,7 +676,7 @@ Prerequisites: introductory course in operations research and ECSE 2500 or equiv
 Prerequisite: ISYE doctoral student or permission of instructor.
 Prerequisite:  ITWS 1100.  Corequisite:  CSCI 1200.
 ITWS 2210 and ITWS 4310.
-CSCI-2300
+CSCI 2300
 Prerequisite or Corequisite: ITWS 2110 or permission of instructor.
 ITWS 4350/6350, CSCI 4350/6350 or permission of instructor.
 Prerequisites:  CSCI 2500 or ECSE 2660; and prerequisite or corequisite CSCI 2300.
@@ -689,104 +689,104 @@ Prerequisite: LANG 1410 or equivalent or permission of instructor.
 Prerequisite: LANG 2410 or equivalent or permission of instructor.
 Prerequisite: LANG 4420 or equivalent or permission of instructor.
 Prerequisite: LANG 4430 or equivalent or permission of instructor.
-LGHT 6770.
-LGHT 4840ng.
+LGHT 6770 .
+LGHT 4840 ng.
 Prerequisite: LGHT 4230.
 Prerequisite: LGHT 4840.
-Prerequisites: (ENGR 1100 or ECSE 1010 Introduction to Engineering Analysis) and (ENGR 1200r ENGR 1400 or CIVL 1200) and (PHYS 1200 or PHYS 1250
-Prerequisite: MANE 2830, or permission of the instructor.
-Prerequisites: MATH 1020 and (PHYS 1100 or PHYS 1150
+Prerequisites: (ENGR 1100 or ECSE 1010 Introduction to Engineering Analysis) and (ENGR 1200 r ENGR 1400  or CIVL 1200 ) and (PHYS 1200 or PHYS 1250
+Prerequisite: MANE 2830 , or permission of the instructor.
+Prerequisites: MATH 1020  and (PHYS 1100 or PHYS 1150
 Prerequisites: (PHYS 1100 or PHYS 1150 Physics I) and (CHEM 1100 or CHEM 1110
-Prerequisites: MATH 2400 and (ENGR 2530 or BMED 2540).
-ENGR 2530.
-Prerequisites: MANE 2710 and MANE 2720.
-Prerequisites: MANE 4070 or MANE 4010 or MANE 4400 or (MANE 2710 and MANE 2720) or permission of instructor.
-Prerequisites: MANE 4070 and (MANE 4050 or MANE 4500).
-Prerequisites: ENGR 2090 and MATH 2400.
-Prerequisite: MANE 4070 I.
-Prerequisite: MANE 4070 I.
-Prerequisites: ENGR 2250 Thermal and Fluids I or MANE 2720, and MATH 2010 Numerical and programming background preferred, not required.
-Prerequisite: ENGR 2090 and MATH 2400.
-Prerequisites: ENGR 2090 and MATH 2400.
-Prerequisite: ENGR 2090.
-Prerequisites: ENGR 2250 or MANE 2720.
-Prerequisite: MANE 4120 or MANE 4130 or MANE 4090 or permission of the instructor.
-Prerequisite: MANE 2220or ENGR 2050 or permission of instructor.
-Prerequisites: MANE 4060, MANE 4070 I, MANE Senior Standing, and either MANE 4090 or permission of instuctor.
-Prerequisites: ENGR 2530 or BMED 2540.
+Prerequisites: MATH 2400  and (ENGR 2530  or BMED 2540 ).
+ENGR 2530 .
+Prerequisites: MANE 2710  and MANE 2720 .
+Prerequisites: MANE 4070  or MANE 4010  or MANE 4400  or (MANE 2710  and MANE 2720 ) or permission of instructor.
+Prerequisites: MANE 4070  and (MANE 4050 or MANE 4500 ).
+Prerequisites: ENGR 2090  and MATH 2400 .
+Prerequisite: MANE 4070  I.
+Prerequisite: MANE 4070  I.
+Prerequisites: ENGR 2250 Thermal and Fluids I or MANE 2720 , and MATH 2010  Numerical and programming background preferred, not required.
+Prerequisite: ENGR 2090  and MATH 2400 .
+Prerequisites: ENGR 2090  and MATH 2400 .
+Prerequisite: ENGR 2090 .
+Prerequisites: ENGR 2250  or MANE 2720 .
+Prerequisite: MANE 4120  or MANE 4130  or MANE 4090  or permission of the instructor.
+Prerequisite: MANE 2220 or ENGR 2050  or permission of instructor.
+Prerequisites: MANE 4060 , MANE 4070  I, MANE Senior Standing, and either MANE 4090  or permission of instuctor.
+Prerequisites: ENGR 2530  or BMED 2540 .
 Seniors only.
-Prerequisite: ENGR 2050 or MANE 2220 and senior standing.
-Prerequisites: MATH 2010nd (MANE 2110 Numerical Methods and Programming or CSCI 1010 or CSCI 1100 or permission of instructor).
-Prerequisite: MANE 2110 and MANE-4480 Physics of Nuclear Reactors; or permission of the instructor.
-Prerequisites: MANE 2220 or ENGR 2050 or permission of instructor. MANE 42202 is recommended.
-Prerequisite: MANE 2830.
-Prerequisite: MANE 2830.
-Prerequisite: ENGR-2600 Modeling and Analysis of Uncertainty and MANE-4400 Nuclear Power Systems Engineering or permission of the instuctor.
-Prerequisites: ENGR 2600 and MANE 2830.
+Prerequisite: ENGR 2050  or MANE 2220  and senior standing.
+Prerequisites: MATH 2010 nd (MANE 2110 Numerical Methods and Programming or CSCI 1010  or CSCI 1100  or permission of instructor).
+Prerequisite: MANE 2110  and MANE 4480 ; or permission of the instructor.
+Prerequisites: MANE 2220  or ENGR 2050  or permission of instructor. MANE 4220 2 is recommended.
+Prerequisite: MANE 2830 .
+Prerequisite: MANE 2830 .
+Prerequisite: ENGR 2600  and MANE 4400  or permission of the instuctor.
+Prerequisites: ENGR 2600  and MANE 2830 .
 Senior standing or permission of instructor.
-Prerequisite: MANE 4380.
-Prerequisite: ENGR 2250 or MANE 2710 and MANE 2720.
-MANE 2830.
-Prerequisite: MANE 2830.
-Prerequisites: MANE 4350d MANE 4480
-MANE 4480.
-Prerequisite: MANE 2400.
-Prerequisite: MANE 2830.
-Prerequisite: MANE 2400.
-MANE 2830 is recommended.
-Prerequisites: MATH 2400 and (PHYS 1200 or PHYS 1250
-Prerequisites: either ENGR 2350 and MANE 4050 or MANE 4500 and MANE 4510
-Prerequisite: ECSE 2410 or MANE 4050 or MANE 4500.
-Prerequisite: ESCE 2410 Signals and Systems or MANE 4050 or MANE 4500.
-Prerequisites: MATH 2400, and either MATH 2010or ENGR 1100.
-Prerequisite: Both ENGR 1300 and ENGR 2710 are suggested.
-Prerequisite: ENGR 4710E 4610.
-Prerequisites: ENGR 2530 and MANE 4030.
-Prerequisite: ENGR 2530 or BMED 2540.
-Prerequisite: MANE 2710.
-Prerequisites: MANE 4010 or MANE 4080 or MANE 4730 or MANE 4400.
-Prerequisite or corequisite: MANE 4010 or MANE 4730.
-Prerequisite: MANE 4010 or MANE 4730 or MANE 4400.
+Prerequisite: MANE 4380 .
+Prerequisite: ENGR 2250  or MANE 2710  and MANE 2720 .
+MANE 2830 .
+Prerequisite: MANE 2830 .
+Prerequisites: MANE 4350 d MANE 4480
+MANE 4480 .
+Prerequisite: MANE 2400 .
+Prerequisite: MANE 2830 .
+Prerequisite: MANE 2400 .
+MANE 2830  is recommended.
+Prerequisites: MATH 2400  and (PHYS 1200 or PHYS 1250
+Prerequisites: either ENGR 2350  and MANE 4050  or MANE 4500  and MANE 4510
+Prerequisite: ECSE 2410  or MANE 4050  or MANE 4500 .
+Prerequisite: ESCE 2410 Signals and Systems or MANE 4050  or MANE 4500 .
+Prerequisites: MATH 2400 , and either MATH 2010 or ENGR 1100 .
+Prerequisite: Both ENGR 1300  and ENGR 2710  are suggested.
+Prerequisite: ENGR 4710 E 4610 .
+Prerequisites: ENGR 2530  and MANE 4030 .
+Prerequisite: ENGR 2530  or BMED 2540 .
+Prerequisite: MANE 2710 .
+Prerequisites: MANE 4010  or MANE 4080  or MANE 4730  or MANE 4400 .
+Prerequisite or corequisite: MANE 4010  or MANE 4730 .
+Prerequisite: MANE 4010  or MANE 4730  or MANE 4400 .
 Prerequisite: MANE 4730
-Prerequisite: MANE 4070 I or MANE 4010 or MANE 4720 Fluid Mechanics.
-Prerequisites: ENGR 2090 and MATH 2400.
-Prerequisites: MANE 4060 and MATH 2400.
-Prerequisite: MANE 4060.
+Prerequisite: MANE 4070  I or MANE 4010  or MANE 4720 Fluid Mechanics.
+Prerequisites: ENGR 2090  and MATH 2400 .
+Prerequisites: MANE 4060  and MATH 2400 .
+Prerequisite: MANE 4060 .
 Permission of instructor.
-Prerequisite: MANE 4070 I.
-Prerequisite: MANE 4070 I.
-Prerequisite: MANE 4120mance or MANE 4130icles.
-Prerequisite: MANE 4120mance or MANE 4130icles.
-Prerequisites:  ENGR 2250 Thermal and Fluids I or MANE 2720, and MATH 2010 Numerical and programming background preferred, not required.
+Prerequisite: MANE 4070  I.
+Prerequisite: MANE 4070  I.
+Prerequisite: MANE 4120 mance or MANE 4130 icles.
+Prerequisite: MANE 4120 mance or MANE 4130 icles.
+Prerequisites:  ENGR 2250 Thermal and Fluids I or MANE 2720 , and MATH 2010  Numerical and programming background preferred, not required.
 Prerequisite: one graduate course in mechanics of solids.
-Prerequisites: ENGR 2250 or equivalent, and MATH 2400.
-Prerequisite: MANE 4120 or MANE 4130 or permission of the instuctor.
-Prerequisites: B.S. in Engineering, MANE 4640 or equivalent, and ENGR 4710ent.
-Prerequisite: MANE 6170 or permission of instructor.
-Prerequisite: MANE 2830.
+Prerequisites: ENGR 2250  or equivalent, and MATH 2400 .
+Prerequisite: MANE 4120  or MANE 4130  or permission of the instuctor.
+Prerequisites: B.S. in Engineering, MANE 4640  or equivalent, and ENGR 4710 ent.
+Prerequisite: MANE 6170  or permission of instructor.
+Prerequisite: MANE 2830 .
 Prerequisite: MANE 2400 or equivalent.
-Prerequisite: MANE 4480.
-Prerequisites: MANE 4290thods.
-Prerequisite: MANE 2400.
-Prerequisites: MANE 4470 is recommended.
+Prerequisite: MANE 4480 .
+Prerequisites: MANE 4290 thods.
+Prerequisite: MANE 2400 .
+Prerequisites: MANE 4470  is recommended.
 Prerequisite:  MANE 4480.
 None
 Prerequisite:  MANE 6840 or equivalent.
 None
-Prerequisite: MANE 2830.
+Prerequisite: MANE 2830 .
 Prerequisite: MANE 6170 or equivalent.
-Prerequisites: MANE 4670; or permission of instructor.
-Prerequisites: MATH 2010 and MANE 4800 or permission of instructor.
-Prerequisite: MANE 4800.  MANE 6520 is recommended.
-Prerequisite: MANE 4070 I.
-Prerequisite: MANE 4010 or MANE 4070 I.  The course is offered only to graduate students. Senior undergraduate students who wish to take this course must discuss it in person with the instructor.
-Prerequisite: MANE 4050 or ECSE 2410.
-Prerequisite: ECSE 6400 or MANE 6600.
-Prerequisite: ECSE 6400 or MANE 6600.
-Prerequisite: MANE 4800. MANE 6520 is recommended.
-Prerequisite: MATH 2400.
+Prerequisites: MANE 4670 ; or permission of instructor.
+Prerequisites: MATH 2010  and MANE 4800  or permission of instructor.
+Prerequisite: MANE 4800 .  MANE 6520  is recommended.
+Prerequisite: MANE 4070  I.
+Prerequisite: MANE 4010  or MANE 4070  I.  The course is offered only to graduate students. Senior undergraduate students who wish to take this course must discuss it in person with the instructor.
+Prerequisite: MANE 4050  or ECSE 2410 .
+Prerequisite: ECSE 6400 or MANE 6600 .
+Prerequisite: ECSE 6400 or MANE 6600 .
+Prerequisite: MANE 4800 . MANE 6520  is recommended.
+Prerequisite: MATH 2400 .
 Prerequisites: MANE 6660/CIVL 6660 or equivalent.
-Prerequisite: MANE 6660/CIVL 6660 or MATH 6860/CSCI 6860.
+Prerequisite: MANE 6660/CIVL 6660  or MATH 6860/CSCI 6860 .
 Prerequisite: CIVL 6660 or MANE 6660 or equivalent.
 Prerequisites: MATH 2010 AND CSCI 1190.
 Prerequisite: MANE 6660/CIVL 6660 or equivalent.
@@ -798,8 +798,8 @@ Prerequisite: MANE 4730
 Prerequisite: MANE 6170.
 MANE 4010 or MANE 4080.
 Prerequisite: a working knowledge of fluid mechanics and heat transfer.
-Prerequisite: MANE 6840.
-Prerequisites: engineering B.S. or MGMT 6620.
+Prerequisite: MANE 6840  .
+Prerequisites: engineering B.S. or MGMT 6620 .
 Permission of instructor.
 Prerequisite: MATH 1010.
 Prerequisites: MATH 1010 or MATH 1500 and major in management or economics, or permission of instructor.
@@ -865,7 +865,7 @@ Prerequisites:  MGMT 2300
 None
 Prerequisite: permission of instructor.
 Prerequisite: MGMT 4100
-MGMT 2100 or equivalent.
+MGMT 2100  or equivalent.
 MGMT 4100.
 MGMT 4100 and MGMT 4110
 MGMT 2100 and MGMT 2430.
@@ -875,17 +875,17 @@ MGMT 2300 with at least a grade of C.
 MGMT 2300.
 MGMT 2300
 MGMT 2300.
-MGMT 4270.
+MGMT 4270 .
 MGMT 2320
 MGMT 2300 and MGMT 2320
-MGMT 4320.
+MGMT 4320 .
 MGMT 2320
 MGMT 2320
 MGMT 2320 or permission of instructor.
 MGMT 2320 and MGMT 4320 or permission of instructor.
 MGMT 2320 or permission of instructor.
-MGMT 2430s)
-MGMT 2430.
+MGMT 2430 s)
+MGMT 2430 .
 MGMT 2430.
 None.
 None
@@ -893,31 +893,31 @@ None
 None
 MGMT 2300 and MGMT 2320.
 MGMT 1100 Introduction to Management or permission of the instructor.
-MGMT 2300 Accounting for Decision Making, MGMT 2320, MGMT 2430, and MGMT 4110.
+MGMT 2300 Accounting for Decision Making, MGMT 2320 , MGMT 2430 , and MGMT 4110 .
 Faculty advisor approval
 MGMT 6020 or equivalent.
 None
 None
 MGMT 6100 or equivalent.
 MGMT 6140 ISM or equivalent.
-MGMT 6190 or MGMT 7740.
+MGMT 6190  or MGMT 7740 .
 MGMT 6100 or equivalent.
 MGMT 6020 or permission of instructor.
-MGMT 6370ssion of instructor.
+MGMT 6370 ssion of instructor.
 MGMT 6190 or MGMT 6020, or approval of the instructor
 Enrollment in the doctoral program in management or economics at Rensselaer (or permission from the course instructor), calculus, and matrix mathematics.
 Restricted to students in their final semester of the M.S. Supply Chain Management program.
 MGMT 6020. This course is available to Hartford students only.
 MGMT 6020 or permission of the instructor.
 MGMT 6100 and either MGMT 6460 or ECON 6560.
-MGMT 6020 or permission of the instructor.
-MGMT 6020 or permission of the instructor.
-MGMT 6020 or permission of the instructor.
+MGMT 6020  or permission of the instructor.
+MGMT 6020  or permission of the instructor.
+MGMT 6020  or permission of the instructor.
 MGMT 4100 or equivalent.
-MGMT6100 and MGMT 6020
+MGMT 6100 and MGMT 6020
 Prerequisites: MGMT 6020 or permission of the instructor.
 MGMT 6020 or MGMT 6520 or permission of instructor. Course restricted to students with graduate status only.
-MGMT 6190 or MGMT 7740 or permission of the instructor.
+MGMT 6190  or MGMT 7740  or permission of the instructor.
 None
 MGMT 6520 or permission of instructor.
 MGMT 6020 or permission of instructor.
@@ -929,28 +929,28 @@ None
 None
 Course is taken towards the end of the program.
 Prerequisite: MGMT 6650 or permission of instructor.
-MGMT 6620.
+MGMT 6620 .
 None
 MGMT 6100 Statistics for Managerial Decision Making and MGMT 6560 Technology Fundamentals for Business Analytics.
 MGMT 6020, MGMT 6040, MGMT 6580, MGMT 7730, MGMT 7740, and faculty adviser approval.
 MGMT 6040 and MGMT 7730 or permission of the instructor
-MGMT 7050MGMT 7740.
-MGMT 6040; MGMT 7730, MGMT 6100 Statistics for Managerial Decision Making. Corequisites: MGMT 6140 Information Systems for Managers; MGMT 6020, MGMT 7060 MGMT 6060 or permission of the instructor.
+MGMT 7050 MGMT 7740 .
+MGMT 6040 ; MGMT 7730 , MGMT 6100 Statistics for Managerial Decision Making. Corequisites: MGMT 6140 Information Systems for Managers; MGMT 6020 , MGMT 7060  MGMT 6060  or permission of the instructor.
 MBA Cohort.
 MBA Cohort.
 MGMT 6410 Investments I.
 MGMT 6520 or permission of instructor.
-MGMT 7800.
+MGMT 7800 .
 MGMT 7800 Research Methods I as a co-requisite
 MGMT 7810 Doctoral Methods II or permission.
-MGMT 7810 7820 Foundations of Management or permission of the instructor.
-MGMT 7840.
+MGMT 7810  7820 Foundations of Management or permission of the instructor.
+MGMT 7840 .
 Good standing as a Ph.D. student.
 Doctoral student standing, Doctoral Research Methods sequence, or permission of doctoral program director.
 Doctoral student standing or permission of the instructor.
 MGMT 7800 Research Methods I and MGMT 7820
 Prerequisite:  ENGR 1600 or equivalent.
-There are no prerequisites for this course. This is a companion course to CHEM 4620.
+There are no prerequisites for this course. This is a companion course to CHEM 4620 .
 Prerequisites: ENGR 2250, CHEM 1100, ENGR 1600 or equivalent.
 Prerequisites: MTLE 4100, CHEM 1100, ENGR 1600.
 Prerequisite: MTLE 4200 or equivalent.
@@ -964,7 +964,7 @@ Prerequisites: CHEM 1100 and ENGR 1600.
 Prerequisite: ENGR 2050, MTLE 4910 and senior status.
 Prerequisite: MTLE 2100 or equivalent.
 Prerequisite: MTLE 4100 or equivalent.
-There are no prerequisites for this course. This is a companion course to CHEM 4620.
+There are no prerequisites for this course. This is a companion course to CHEM 4620 .
 Prerequisite: MTLE 4100 or MTLE 6030 or equivalent.
 Prerequisite: MTLE 2100 or MTLE 6040.
 Prerequisite: ECSE 4250 or equivalent.
@@ -1028,17 +1028,17 @@ Prerequisite:  PSYC 4740.
 Prerequisite:  PSYC 1200.
 Prerequisite:  PSYC 1200, PSYC 2800, or permission of instructor. Maximum enrollment: 24.
 Permission of a supervising faculty member.
-One of the following: STSO1110, IHSS 1110, IHSS 1240, IHSS 1320, or permission of instructor.
+One of the following: STSO 1110, IHSS 1110, IHSS 1240, IHSS 1320, or permission of instructor.
 Prerequisite: One of the following: STSO 1110, STSO 2520, STSO 2500, STSO 2210, or permission of instructor
 Prerequisite: STSO 2300 or permission of instructor
 Prerequisite: junior or senior standing or permission of instructor.
 Prerequisites: One of the following: STSO 2010, STSO 2100, STSS 2210, STSO 2300, STSS 2510, STSO 2520, STSO 2500, or permission of instructor
-IHSS 1410, IHSS 1420, IHSS 1430, STSO 1110, STSO 2500, or STSO 2520.
+IHSS 1410 , IHSS 1420 , IHSS 1430 , STSO 1110 , STSO 2500 , or STSO 2520 .
 Prerequisite: 1000-level course (or higher) in STS
-IHSS 1410, IHSS 1420, IHSS 1430, IHSS 1410, IHSS 1420, IHSS 1430, STSO 1110 STSO 2520, or STSO 2500.
+IHSS 1410 , IHSS 1420 , IHSS 1430 , IHSS 1410 , IHSS 1420 , IHSS 1430 , STSO 1110  STSO 2520 , or STSO 2500 .
 Prerequisite: STSO 2300 or permission of instructor.
 Prerequisite: one course in American history or permission of instructor.
-Prerequisites: One of the following: IHSS 1420, IHSS 1430, STSO1110, STSO 2500, STSO 2520, or permission of instructor.
+Prerequisites: One of the following: IHSS 1420, IHSS 1430, STSO 1110, STSO 2500, STSO 2520, or permission of instructor.
 Prerequisite: any course with an STSO designation or permission of instructor.
 Prerequisites: any 1000- or 2000-level STS course or permission of instructor.
 Prerequisite: STSO 4980
