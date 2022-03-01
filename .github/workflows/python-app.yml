@@ -1,5 +1,5 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+# This workflow will install Python dependencies, run all scraper files and then
+# push the files to the data directory.
 
 name: auto scraper
 
@@ -33,16 +33,17 @@ jobs:
     - name: execute py script
       run: for f in src/*.py; do python "$f"; done
       
-    - name: commit files
-      working-directory: ./rpi-crisis/data
-      run: |
-           git config --local user.email "action@github.com"
-           git config --local user.name "GitHub Action"
-           git add -A
-           git commit -m "update data" -a
-      
-    - name: push changes
-      uses: ad-m/github-push-action@v0.6.0
+    - name: push to data directory
+      id: push_directory
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+          source-directory: rpi-crisis/scraper
+          destination-github-username: 'nazime1'
+          destination-repository-name: 'rpi-crisis/data'
+          user-email: nazime@rpi.edu
+          commit-message: Data scraped from the various scrapers
+          target-branch: main
+    - name: Test get variable exported by push-to-data-directory
+      run: echo $DESTINATION_CLONED_DIRECTORY
