@@ -10,7 +10,27 @@ coids = json.load(coid_file)
 
 crse_regex = re.compile(r"[A-Z]{4}[\- ]?\d{4}")
 
-parse_regex = re.compile(r"[^\w](?:(?P<AND>and)|(?P<NOT>not)|(?P<OR>or)|(?P<INS>instructor)|(?P<SEN>senior)|(?P<JUN>junior)|(?P<SOF>sophomore)|(?P<FRS>freshman)|(?P<REC>recommend)|(?P<REQ>require)|(?P<RST>restrict)|(?P<EXC>except)|(?P<ARC>M.Arch.))[^\w]|(?P<DPT>\d{4})|(?P<CID>[A-Z]{4})|(?P<PRE>[Pp]rerequisite)|(?P<COR>[Cc]orequisite)")
+parsing_spec = [
+	('AND', r"\band\b"),
+	('NOT', r"\bnot\b"),
+	('OR', r"\bor\b"),
+	('INS', r"instructor"),
+	('SEN', r"senior"),
+	('JUN', r"junior"),
+	('SOF', r"sophomore"),
+	('FRS', r"freshman"),
+	('REC', r"recommend"),
+	('REQ', r"require"),
+	('RST', r"restrict"),
+	('EXC', r"except"),
+	('ARC', r"m\.arch\."),
+	('CID', r"\d{4}"),
+	('DPT', r"\b[A-Z]{4}\b"),
+	('PRE', r"prerequisite"),
+	('COR', r"corequisite"),
+]
+
+parse_regex = re.compile('|'.join(f"(?P<{pair[0]}>{pair[1]})" for pair in parsing_spec), re.I)
 
 # Determines if a string is close enough to be considered a match.
 # NOTE: 80% or greater is considered a match.
@@ -70,6 +90,7 @@ def tokenize(line):
 			txt = gdict[group]
 
 			if txt is not None:
+				if group == 'DPT' and not txt.isupper(): continue
 				tokens.append((group, txt))
 
 	return tokens
@@ -104,9 +125,9 @@ def parse(line):
 
 	tokens = tokenize(line2)
 
-	txt = "".join([" " + txt_token(token) for token in tokens])
+	txt = " ".join(txt_token(token) for token in tokens)
 
-	out_file.write(txt[1:] + "\n")
+	out_file.write(txt + "\n")
 
 
 def main():

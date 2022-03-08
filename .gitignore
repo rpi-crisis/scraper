@@ -2,3 +2,8 @@
 .vscode/
 .cpcache/
 .nrepl-port
+
+req_parsing/parsing1.txt
+req_parsing/coid.json
+req_parsing/parsing2.txt
+req_parsing/reqs.txt
