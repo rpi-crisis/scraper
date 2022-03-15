@@ -11,7 +11,7 @@ for z in ba_elements:
     major_title = z.text.strip()
     major_link = z.get('href')
     baccalaureate[major_title] = {"description": " ", "requirements": " ", 
-    "years": [[], [], [], []], 
+    "years": [[], [], [], [], []], 
     "other-content": {}}
     baccalaureate[major_title]["other-content"] = {"options": " ", "capstone": " ", "transfer_policy": " ", "footnotes": " "}
     major_webpage = requests.get("http://catalog.rpi.edu/" + major_link)
@@ -24,22 +24,20 @@ for z in ba_elements:
     baccalaureate[major_title]["description"] = description_tr
     baccalaureate[major_title]["requirements"] = requirement_tr   
     yearsHTML = requirement_tr.find("div", class_="custom_leftpad_20")
-    yeartitlelist = yearsHTML.find("div", class_ = "acalog-core")
-    yeardescriptionlist = yearsHTML.find("div", class_="custom_leftpad_20")
+    if yearsHTML == None:
+        continue 
+    yearlist = yearsHTML.find("div", class_ = "acalog-core")
     count = 0
-    while(yeartitlelist != None):
+    while(yearlist != None):
         if count > 3:
             break
-        baccalaureate[major_title]["years"][count].append(yeartitlelist)
-        baccalaureate[major_title]["years"][count].append(yeartitlelist.next_sibling)
-        yeartitlelist = yeartitlelist.next_sibling.next_sibling
+        baccalaureate[major_title]["years"][count].append(yearlist)
+        baccalaureate[major_title]["years"][count].append(yearlist.next_sibling)
+        if yearlist.next_sibling == None or yearlist.next_sibling.next_sibing == None:
+            break
+        yearlist = yearlist.next_sibling.next_sibling
         count += 1
-    for x in baccalaureate[major_title]["years"]:
-        print(x)
-        print("--------------------------------------")
-    #for x in range(0, len(yeartitlelist)):
-        #baccalaureate[major_title]["years"][x].append(yeartitlelist[x])
-        #baccalaureate[major_title]["years"][x].append(yeardescriptionlist[x])
+    
     
     print("----------------------")
     break
