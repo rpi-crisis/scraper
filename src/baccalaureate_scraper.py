@@ -24,13 +24,22 @@ for z in ba_elements:
     baccalaureate[major_title]["description"] = description_tr
     baccalaureate[major_title]["requirements"] = requirement_tr   
     yearsHTML = requirement_tr.find("div", class_="custom_leftpad_20")
-    yeartitlelist = yearsHTML.find_all("div", class_ = "acalog-core")
-    yeardescriptionlist = yearsHTML.find_all("div", class_="custom_leftpad_20")
-    #print(yeartitlelist)
-    print(yeardescriptionlist)
-    for x in range(0, len(yeartitlelist)):
-        baccalaureate[major_title]["years"][x].append(yeartitlelist[x])
-        baccalaureate[major_title]["years"][x].append(yeardescriptionlist[x])
+    yeartitlelist = yearsHTML.find("div", class_ = "acalog-core")
+    yeardescriptionlist = yearsHTML.find("div", class_="custom_leftpad_20")
+    count = 0
+    while(yeartitlelist != None):
+        if count > 3:
+            break
+        baccalaureate[major_title]["years"][count].append(yeartitlelist)
+        baccalaureate[major_title]["years"][count].append(yeartitlelist.next_sibling)
+        yeartitlelist = yeartitlelist.next_sibling.next_sibling
+        count += 1
+    for x in baccalaureate[major_title]["years"]:
+        print(x)
+        print("--------------------------------------")
+    #for x in range(0, len(yeartitlelist)):
+        #baccalaureate[major_title]["years"][x].append(yeartitlelist[x])
+        #baccalaureate[major_title]["years"][x].append(yeardescriptionlist[x])
     
     print("----------------------")
     break
