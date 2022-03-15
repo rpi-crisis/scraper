@@ -26,9 +26,11 @@ for z in ba_elements:
     yearsHTML = requirement_tr.find("div", class_="custom_leftpad_20")
     yeartitlelist = yearsHTML.find_all("div", class_ = "acalog-core")
     yeardescriptionlist = yearsHTML.find_all("div", class_="custom_leftpad_20")
+    #print(yeartitlelist)
+    print(yeardescriptionlist)
     for x in range(0, len(yeartitlelist)):
-        baccalaureate[major_title]["years"][x].add(yeartitlelist[x])
-        baccalaureate[major_title]["years"][x].add(yeardescriptionlist[x])
+        baccalaureate[major_title]["years"][x].append(yeartitlelist[x])
+        baccalaureate[major_title]["years"][x].append(yeardescriptionlist[x])
     
     print("----------------------")
     break
