@@ -1,0 +1,20 @@
+req ::= prereq? list (coreq list)?
+
+prereq ::= [COREQ] <M.ARCH>?
+coreq ::= [COREQ] <M.ARCH>?
+
+list ::= and | or | item
+
+and ::= item {AND} item | item+
+
+or ::= item+
+
+item ::= require | inner
+
+require ::= inner <EXCEPT> <M.ARCH.> | inner 
+
+inner ::= class | <INSTRUCTOR> | course | student
+
+student ::= <FRESHMAN> | <SOPHOMORE> | <JUNIOR> | <SENIOR> | <GRADUATE>
+
+course ::= 

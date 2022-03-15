@@ -15,6 +15,7 @@ parsing_spec = [
 	('NOT', r"\bnot\b"),
 	('OR', r"\bor\b"),
 	('INS', r"instructor"),
+	('GRD', r"graduate"),
 	('SEN', r"senior"),
 	('JUN', r"junior"),
 	('SOF', r"sophomore"),
@@ -28,6 +29,7 @@ parsing_spec = [
 	('DPT', r"\b[A-Z]{4}\b"),
 	('PRE', r"prerequisite"),
 	('COR', r"corequisite"),
+	('CRS', r"course"),
 ]
 
 parse_regex = re.compile('|'.join(f"(?P<{pair[0]}>{pair[1]})" for pair in parsing_spec), re.I)
@@ -115,6 +117,8 @@ def txt_token(token):
 	elif tok_type == "CID": return f"({tok_txt})"
 	elif tok_type == "PRE": return  "[PREREQ]"
 	elif tok_type == "COR": return  "[COREQ]"
+	elif tok_type == "GRD": return  "<GRADUATE>"
+	elif tok_type == "CRS": return  "<COURSE>"
 
 	return None
 
