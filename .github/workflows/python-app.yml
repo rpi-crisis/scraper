@@ -40,8 +40,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
           source-directory: rpi-crisis/scraper
-          destination-github-username: 'nazime1'
-          destination-repository-name: 'rpi-crisis/data'
+          destination-github-username: 'rpi-crisis'
+          destination-repository-name: 'data'
           user-email: nazime@rpi.edu
           commit-message: Data scraped from the various scrapers
           target-branch: main
