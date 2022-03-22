@@ -1,0 +1,13 @@
+start: ("PREREQ" (prereq))* ("COREQ" coreq)*
+		 | none
+
+none: none
+coreq: class
+prereq: class
+
+dept_name: "[" /[A-Z]{4}/ "]"
+course_id: "(" /[0-9]{4}/ ")"
+class: dept_name course_id
+
+WHITESPACE: (" " | "\n")+
+%ignore WHITESPACE

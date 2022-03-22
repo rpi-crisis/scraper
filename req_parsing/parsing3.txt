@@ -1,0 +1,2180 @@
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	1200
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2150
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2800
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2520
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2810
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2530
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2820
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2540
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2830
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2520
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2800
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2530
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2820
+  coreq
+    class
+      dept_name	ARCH
+      course_id	2550
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2850
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	4100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	4120
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2360
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	4770
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	4780
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	4820
+  coreq
+    class
+      dept_name	ARCH
+      course_id	4540
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5140
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5160
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5310
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5380
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	6610
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	6620
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	5110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	6680
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARCH
+      course_id	6810
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARTS
+      course_id	2210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ARTS
+      course_id	1200
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	PHYS
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ASTR
+      course_id	4220
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	BIOL
+      course_id	1010
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	BIOL
+      course_id	2125
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	BIOL
+      course_id	2120
+
+
+
+
+
+start
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	BIOL
+      course_id	4110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	BIOL
+      course_id	2500
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	BIOL
+      course_id	2500
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	1100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	1100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	BMED
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	1200
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	CHEM
+      course_id	2110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CHEM
+      course_id	2250
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	CHEM
+      course_id	2260
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CHEM
+      course_id	4410
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CHEM
+      course_id	2250
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CHME
+      course_id	4050
+
+
+
+
+
+start
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	2530
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2670
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2670
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2670
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2670
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2030
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2030
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2030
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	2030
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	6260
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENVE
+      course_id	4310
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	4440
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	6450
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	6450
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CIVL
+      course_id	4150
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	4210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	4430
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2600
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	4210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	2300
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	4430
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	4210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	1100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2610
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2050
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2050
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2050
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2210
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2410
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	4520
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	2620
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2610
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	4770
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2050
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	ECSE
+      course_id	6110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	6110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	6230
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	ECSE
+      course_id	6230
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2410
+  coreq
+    class
+      dept_name	ECSE
+      course_id	6400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	6400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	6510
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	6620
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	4670
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	4220
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	4770
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	2610
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ECSE
+      course_id	6400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CHEM
+      course_id	1100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	IHSS
+      course_id	2610
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	1200
+  coreq
+    class
+      dept_name	MATH
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1010
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	2020
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	4710
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENVE
+      course_id	2110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENVE
+      course_id	4320
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENVE
+      course_id	6200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENVE
+      course_id	4330
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1020
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ERTH
+      course_id	4340
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CSCI
+      course_id	1100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	2600
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	2600
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ISYE
+      course_id	4290
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ISYE
+      course_id	4600
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ITWS
+      course_id	1100
+  coreq
+    class
+      dept_name	CSCI
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	LGHT
+      course_id	4230
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	LGHT
+      course_id	4840
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4070
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4070
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	ENGR
+      course_id	2090
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4380
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2710
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4730
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4060
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4070
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4070
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4480
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4290
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4480
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	2830
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4070
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2400
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	4730
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	6170
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MANE
+      course_id	6840
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1010
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1020
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1020
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2010
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2010
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1020
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	1020
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MATH
+      course_id	2010
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MGMT
+      course_id	2300
+
+
+
+
+
+start
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MGMT
+      course_id	4100
+
+
+
+
+
+start
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	MGMT
+      course_id	2300
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	MTLE
+      course_id	4910
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHIL
+      course_id	2140
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHIL
+      course_id	2140
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHIL
+      course_id	1110
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHIL
+      course_id	2140
+
+
+
+
+
+start
+
+
+
+
+
+start
+  coreq
+    class
+      dept_name	MATH
+      course_id	1010
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	CHEM
+      course_id	1100
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	2620
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	6510
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	6510
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	6510
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	6520
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	6710
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PHYS
+      course_id	6510
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	4740
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	PSYC
+      course_id	1200
+
+
+
+
+
+start
+
+
+
+
+
+start
+  prereq
+    class
+      dept_name	STSO
+      course_id	4980
+
+
+
+
+
