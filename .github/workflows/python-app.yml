@@ -42,7 +42,7 @@ jobs:
           source-directory: src
           destination-github-username: 'rpi-crisis'
           destination-repository-name: 'data'
-          user-email: nazime@rpi.edu
+          user-email: bot@rpicrisis.org
           commit-message: Data scraped from the various scrapers
           target-branch: main
     - name: Test get variable exported by push-to-data-directory
