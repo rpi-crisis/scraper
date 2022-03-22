@@ -34,17 +34,26 @@ for z in ba_elements:
     yearlist = yearsHTML.find("div", class_ = "acalog-core")
     count = 0
     yearcount = 0
-    print(yearsHTML)
-    print("---------------------------")
+    #print(yearsHTML)
+    #print("---------------------------")
     while(yearlist != None):
         print(yearlist)
-        try:
-            testString = yearlist.h2.a
-            if "Footnotes" in testString:
-                baccalaureate[major_title]["other_content"]["footnotes"].append(yearlist)
-        except:
-            print("no h2")
-        baccalaureate[major_title]["years"][count].append(yearlist)
+        if (count > 3 and major_title != "Architecture") or (count > 4 and major_title == "Architecture"):
+            try:
+                testString = yearlist.h2.a
+                print(testString)
+                if "Footnotes" in testString:
+                    baccalaureate[major_title]["other_content"]["footnotes"].append(yearlist)
+                if "Capstone" in testString:
+                    baccalaureate[major_title]["other_content"]["capstone"].append(yearlist)
+                if "Transfer Credit Policy" in testString:
+                    baccalaureate[major_title]["other_content"]["transfer_policy"].append(yearlist)
+                if "Options" in testString:
+                    baccalaureate[major_title]["other_content"]["options"].append(yearlist)
+            except:
+                print("no h2")
+        else:
+            baccalaureate[major_title]["years"][count].append(yearlist)
         yearlist = yearlist.next_sibling
         yearcount += 1
         if yearcount > 1:
@@ -54,4 +63,3 @@ for z in ba_elements:
     
     #print(baccalaureate[major_title]["years"])
     print("----------------------")
-    break
