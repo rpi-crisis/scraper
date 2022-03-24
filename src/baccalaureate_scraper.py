@@ -16,7 +16,7 @@ for z in ba_elements:
     baccalaureate[major_title] = {"description": " ", "requirements": " ", 
     "years": [[], [], [], [], []], 
     "other-content": {}}
-    baccalaureate[major_title]["other-content"] = {"options": " ", "capstone": " ", "transfer_policy": " ", "footnotes": " ", "misc": " "}
+    baccalaureate[major_title]["other-content"] = {"options": " ", "capstone": " ", "transfer_policy": " ", "footnotes": " ", "misc": []}
     
     major_webpage = requests.get("http://catalog.rpi.edu/" + major_link)
     major_soup = BeautifulSoup(major_webpage.content, 'html5lib')
@@ -38,22 +38,23 @@ for z in ba_elements:
     #print("---------------------------")
     while(yearlist != None):
         #print(yearlist)
+        #print(major_title)
         if (count > 3 and major_title != "Architecture") or (count > 4 and major_title == "Architecture"):
             try:
-                testString = yearlist.h2.a
-                #print(testString)
+                #print(yearlist)
+                testString = yearlist.h2.a['name']
                 if "Footnotes" in testString:
-                    baccalaureate[major_title]["other_content"]["footnotes"].append(yearlist)
+                    baccalaureate[major_title]["other-content"]["footnotes"] = yearlist
                 elif "Capstone" in testString:
-                    baccalaureate[major_title]["other_content"]["capstone"].append(yearlist)
+                    baccalaureate[major_title]["other-content"]["capstone"] = yearlist
                 elif "Transfer Credit Policy" in testString:
-                    baccalaureate[major_title]["other_content"]["transfer_policy"].append(yearlist)
+                    baccalaureate[major_title]["other-content"]["transfer_policy"] = yearlist
                 elif "Options" in testString:
-                    baccalaureate[major_title]["other_content"]["options"].append(yearlist)
+                    baccalaureate[major_title]["other-content"]["options"] = yearlist
                 else:
-                    baccalaureate[major_title]["other_content"]["misc"].append(yearlist)
-            except:
-                continue
+                    baccalaureate[major_title]["other-content"]["misc"].append(yearlist)
+            except Exception as e:
+                baccalaureate[major_title]["other-content"]["misc"].append(yearlist)
         else:
             baccalaureate[major_title]["years"][count].append(yearlist)
         yearlist = yearlist.next_sibling
@@ -61,7 +62,9 @@ for z in ba_elements:
         if yearcount > 1:
             yearcount = 0
             count += 1
-        #print("-------")
+        #print("-------------------------------------------")
     
-    #print(baccalaureate[major_title]["years"])
-    #print("----------------------")
+for x in baccalaureate:
+    print(baccalaureate[x])
+    print("-------------------------------------------------------")
+    break
