@@ -10,7 +10,7 @@ an object with the following form:
 | `"title"`       | Course name.                                                | `"CALCULUS I"`                                              |
 | `"department"`  | Department code.                                            | `"MATH"`                                                    |
 | `"id"`          | Course code.                                                | `1010`                                                      |
-| `"credits"`     | Number of credits for the course. May be a range of values. | `"4"`, or `"1-4"`                                          |
+| `"credits"`     | Number of credits for the course. May be a range of values. | `"4"`, or `"1-4"`                                           |
 | `"ci"`          | Whether this course is **c**ommunication **i**ntensive.     | `false`                                                     |
 | `"description"` | Course description.                                         | `"Functions, limits, continuity, derivatives, implicit..."` |
 | `"offered"`     | When the course can be taken.                               | `"Fall and spring terms annually."`                         |

@@ -1,0 +1,49 @@
+# This workflow will install Python dependencies, run all scraper files and then
+# push the files to the data directory.
+
+name: auto scraper
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: install python packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest requests bs4 html5lib
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: execute py script
+      run: for f in src/*.py; do python "$f"; done
+      
+    - name: push to data directory
+      id: push_directory
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+          source-directory: src
+          destination-github-username: 'rpi-crisis'
+          destination-repository-name: 'data'
+          user-email: bot@rpicrisis.org
+          commit-message: Data scraped from the various scrapers
+          target-branch: main
+    - name: Test get variable exported by push-to-data-directory
+      run: echo $DESTINATION_CLONED_DIRECTORY
