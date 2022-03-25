@@ -1,13 +1,34 @@
-start: ("PREREQ" (prereq))* ("COREQ" coreq)*
+start: "PREREQ" "OR" "COREQ" coreq
+		 | ("PREREQ"? (prereq))? ("COREQ" coreq)?
 		 | none
 
-none: none
-coreq: class
-prereq: class
+coreq: binary | item | none
+prereq: binary | item | none
 
-dept_name: "[" /[A-Z]{4}/ "]"
-course_id: "(" /[0-9]{4}/ ")"
+none: "1"?
+
+or: item* "OR" item?
+  | item* "OR" binary?
+
+and: item* "AND"? item
+	 | item* "AND"? binary
+
+binary: or | and
+
+item: instructor | except | class | grade
+
+instructor: "INSTRUCTOR"
+
+grade: "FRESHMAN" | "SOPHOMORE" | "JUNIOR" | "SENIOR" | "GRADUATE"
+
+except: class "EXCEPT" "M.ARCH."
+
 class: dept_name course_id
+
+dept_name: "[" /[A-Z]{4}/ "]"+
+course_id: "(" /[0-9]{4}/ ")"+
+
+//----------------------------------------------------------------------------//
 
 WHITESPACE: (" " | "\n")+
 %ignore WHITESPACE
