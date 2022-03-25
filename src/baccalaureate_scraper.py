@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import time
+
 time_start = time.time()
 r = requests.get("http://catalog.rpi.edu/content.php?catoid=22&navoid=542")
 baccalaureate = {}
@@ -44,17 +45,17 @@ for z in ba_elements:
     #count and yearcount will be used to  put the raw HTML in each value of the years array.
     count = 0
     yearcount = 0
-    #print(yearsHTML)
-    #print("---------------------------")
 
     #if there are no more HTML chunks, then the loop ends
     while(yearlist != None):
+        #debug print
         #print(yearlist)
         #print(major_title)
         
         #checks to see if there are any extra bits of HTML after getting through the inital 4/5 years.
         if (count > 3 and major_title != "Architecture") or (count > 4 and major_title == "Architecture"):
             try:
+                #debug print
                 #print(yearlist)
                 testString = yearlist.h2.a['name']
 
@@ -83,12 +84,11 @@ for z in ba_elements:
         if yearcount > 1:
             yearcount = 0
             count += 1
-        #print("-------------------------------------------")
-    
-#printing all the information in the mass dictionary
-for x in baccalaureate:
-    print(baccalaureate[x])
-    print("-------------------------------------------------------")
 
-#runtime
+#printing all the information in the mass dictionary (DEBUG)
+#for x in baccalaureate:
+    #print(baccalaureate[x])
+    #print("-------------------------------------------------------")
+
+#runtime (DEBUG)
 print(time.time() - time_start)
