@@ -30,6 +30,7 @@ parsing_spec = [
 	('PRE', r"prerequisite"),
 	('COR', r"corequisite"),
 	('CRS', r"course"),
+	('SLH', r"/"),
 ]
 
 parse_regex = re.compile('|'.join(f"(?P<{pair[0]}>{pair[1]})" for pair in parsing_spec), re.I)
@@ -119,6 +120,7 @@ def txt_token(token):
 	elif tok_type == "COR": return  "COREQ"
 	elif tok_type == "GRD": return  "GRADUATE"
 	elif tok_type == "CRS": return  "COURSE"
+	elif tok_type == "SLH": return  "SLASH"
 
 	return None
 

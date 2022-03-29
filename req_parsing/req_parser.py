@@ -18,7 +18,7 @@ for line in lines:
 		total += 1
 		text = parser.parse(line).pretty() + "\n\n\n\n\n"
 		good += 1
-		print(text)
+		#print(text)
 	except:
 		out_file.write(line)
 		pass

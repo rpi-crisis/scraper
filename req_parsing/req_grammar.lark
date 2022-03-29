@@ -7,15 +7,25 @@ prereq: binary | item | none
 
 none: "1"?
 
-or: item* "OR" item?
-  | item* "OR" binary?
+or: item* ("OR"+) item?
+  | item* ("OR"+) binary?
 
 and: item* "AND"? item
 	 | item* "AND"? binary
+	 | item* "AND" binary?
 
-binary: or | and
+andor: item* "AND" "SLASH" "OR" item?
+  | item* "AND" "SLASH" "OR"  binary?
 
-item: instructor | except | class | grade
+binary: or | and | andor
+
+item: (instructor | except | class | grade | type_course) (restrict | "RECOMMEND" | ("NOT"? "REQUIRE"))?
+
+type_course: coids depts "COURSE"
+					 | "COURSE" depts
+					 | (grade "OR")* grade "COURSE"
+
+restrict: "COURSE"? "RESTRICT" binary
 
 instructor: "INSTRUCTOR"
 
@@ -23,7 +33,12 @@ grade: "FRESHMAN" | "SOPHOMORE" | "JUNIOR" | "SENIOR" | "GRADUATE"
 
 except: class "EXCEPT" "M.ARCH."
 
-class: dept_name course_id
+class: (course "SLASH")* course
+
+course: depts coids
+
+depts: (dept_name ("SLASH" | "OR")?)* dept_name
+coids: (course_id ("SLASH" | "OR")?)* course_id
 
 dept_name: "[" /[A-Z]{4}/ "]"+
 course_id: "(" /[0-9]{4}/ ")"+
