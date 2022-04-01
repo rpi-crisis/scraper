@@ -1,0 +1,50 @@
+start: "PREREQ" "OR" "COREQ" coreq
+		 | ("PREREQ"? (prereq))? ("COREQ" coreq)?
+		 | ("PREREQ"? (prereq))? ("COREQ" coreq)? "RECOMMEND" recmd
+		 | none
+
+coreq: binary | item | none
+prereq: binary | item | none
+recmd: binary | item
+
+none: "1"?
+
+or: item* ("AND" "/")? "OR"+ item?
+  | item* ("OR"+) binary?
+
+and: item* "AND"? item
+	 | item* "AND"? binary
+	 | item* "AND" binary?
+
+binary: or | and
+
+item: (instructor | except | class | grade | type_course) (restrict | "RECOMMEND"? "NOT"? "REQUIRE"?)?
+    | restrict
+
+type_course: coids depts "COURSE"
+					 | "COURSE" depts
+					 | (grade "OR")* grade "COURSE"
+
+restrict: "COURSE"? "RESTRICT" binary
+				| "RESTRICT" item
+
+instructor: "INSTRUCTOR"
+
+grade: "FRESHMAN" | "SOPHOMORE" | "JUNIOR" | "SENIOR" | "GRADUATE"
+
+except: class "EXCEPT" "M.ARCH."
+
+class: (course "/")* course
+
+course: depts coids
+
+depts: (dept_name ("/" | "OR")?)* dept_name
+coids: (course_id ("/" | "OR")?)* course_id
+
+dept_name: "[" /[A-Z]{4}/ "]"+
+course_id: "(" /[0-9]{4}/ ")"+
+
+//----------------------------------------------------------------------------//
+
+WHITESPACE: (" " | "\n")+
+%ignore WHITESPACE

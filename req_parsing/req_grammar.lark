@@ -1,44 +1,23 @@
-start: "PREREQ" "OR" "COREQ" coreq
-		 | ("PREREQ"? (prereq))? ("COREQ" coreq)?
-		 | none
+start: "PREREQ" prereq
+		 | prereq
+		 | "COREQ" coreq
+		 | "PREREQ" prereq ("," | ";")? "COREQ" coreq
+		 | prereq ("," | ";")? "COREQ" coreq
+		 | "PREREQ OR COREQ" coreq
 
-coreq: binary | item | none
-prereq: binary | item | none
+prereq: data
+coreq: data
 
-none: "1"?
+data: (stmt ".")* stmt "."?
 
-or: item* ("OR"+) item?
-  | item* ("OR"+) binary?
+stmt: class | and
 
-and: item* "AND"? item
-	 | item* "AND"? binary
-	 | item* "AND" binary?
+and: (class ",")* "AND"? class
 
-andor: item* "AND" "SLASH" "OR" item?
-  | item* "AND" "SLASH" "OR"  binary?
+class: dept_name course_id except? "REQUIRE COREGISTER"?
+except: "EXCEPT M.ARCH."
 
-binary: or | and | andor
-
-item: (instructor | except | class | grade | type_course) (restrict | "RECOMMEND" | ("NOT"? "REQUIRE"))?
-
-type_course: coids depts "COURSE"
-					 | "COURSE" depts
-					 | (grade "OR")* grade "COURSE"
-
-restrict: "COURSE"? "RESTRICT" binary
-
-instructor: "INSTRUCTOR"
-
-grade: "FRESHMAN" | "SOPHOMORE" | "JUNIOR" | "SENIOR" | "GRADUATE"
-
-except: class "EXCEPT" "M.ARCH."
-
-class: (course "SLASH")* course
-
-course: depts coids
-
-depts: (dept_name ("SLASH" | "OR")?)* dept_name
-coids: (course_id ("SLASH" | "OR")?)* course_id
+none: "NOTHING TO SEE HERE"?
 
 dept_name: "[" /[A-Z]{4}/ "]"+
 course_id: "(" /[0-9]{4}/ ")"+
