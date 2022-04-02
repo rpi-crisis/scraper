@@ -1,0 +1,192 @@
+Accelerated Science, Technology, and Society (Law) B.S./J.D.
+<tr>
+		<td colspan="4">
+			<table class="table_default">
+				<tbody><tr>
+					<td>
+						<div class="help_block"><a class="help acalog-highlight-ignore" href="help.php" onclick="acalogPopup('help.php', 'help', 770, 530, 'yes');return false;" target="_blank"><strong>HELP</strong></a></div>
+	<span class="acalog_catalog_name">Rensselaer Catalog 2021-2022</span>																	<br/>
+	    <h1 id="acalog-content">Accelerated Science, Technology, and Society (Law) B.S./J.D.</h1>
+				<div style="float: right"><a alt="Text Version" class="print_link acalog-highlight-ignore" href="/preview_program.php?catoid=22&amp;poid=5522&amp;returnto=542&amp;print" onclick="acalogPopup('/preview_program.php?catoid=22&amp;poid=5522&amp;returnto=542&amp;print', 'print_preview', 770, 530, 'yes');return false;" rel="nofollow" target="_blank" title="Print-Friendly Page (opens a new window)"><span class="sr-only">Print-Friendly Page (opens a new window)</span></a></div><div class="acalog-social-media-links float_right"> </div>
+			<div align="left">
+				<a class="portfolio_link acalog-highlight-ignore acalog-icon" href="javascript:void(0)" onclick="acalogPopup('portfolio.php?catoid=22&amp;add=1&amp;poid=5522#programs', 'portfolio', 770, 530, 'yes');return false;" target="_blank" title="Add to Portfolio (opens a new window)">
+				</a>
+			</div>																</td>
+															</tr>
+															<tr>
+																<td>
+																	<hr/>
+																</td>
+															</tr>
+														</tbody></table>
+		<p class="acalog-breadcrumb acalog-highlight-ignore"><img alt="Return to {$returnto_text}" class="return-to" src="/return.gif"/> Return to: <a href="content.php?catoid=22&amp;navoid=542">Programs</a></p><p>This template is designed to advise students participating in the accelerated STSO/Law (B.S./J.D.) program (SSLW). The degree requirements are the same as the B.S. in STSO, however, this template provides for accelerated completion of STSO major requirements in the program’s first three years (at Rensselaer) as well as the coursework of any first-year law program that allows for remote-completion of the requirements of the B.S. in STSO.</p>
+													</td>
+												</tr>
+<tr>
+													<td class="width" colspan="4">
+		<div class="custom_leftpad_20"><div class="acalog-core"><h2><a name="FirstYear"></a><a id="core_34896" name="firstyear"></a>First Year</h2><hr/></div><div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34897" name="fall"></a>Fall</h3><hr/><ul>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44313',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34897~;}'); return false;">STSO 1110 - Science, Technology, and Society</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43961',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34897~;}'); return false;">MATH 1500 - Calculus for Architecture, Management, and HASS</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43959',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34897~;}'); return false;">MATH 1010 - Calculus I</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>(See footnote 6 below)</p></li></ul></div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34898" name="spring"></a>Spring</h3><hr/><ul>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>Intermediate STS course <em>Credit Hours: 4</em><br/>
+	(See footnote 2 below)</li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43962',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34898~;}'); return false;">MATH 1520 - Mathematical Methods in Management and Economics</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43960',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34898~;}'); return false;">MATH 1020 - Calculus II</a> <em>Credit Hours:</em> <em>4</em></span></li></ul></div></div><div class="acalog-core"><h2><a name="SecondYear"></a><a id="core_34899" name="secondyear"></a>Second Year</h2><hr/></div><div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34900" name="fall"></a>Fall</h3><hr/><ul>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>CAS Course <em>Credit Hours: 4</em><br/>
+	(See footnote 7 below)</li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44872',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34900~;}'); return false;">STSO 2100 - Investigating Society</a> <em>Credit Hours:</em> <em>4</em></span></li></ul></div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34901" name="spring"></a>Spring</h3><hr/><ul>
+	<li>CAS Course <em>Credit Hours: 4</em></li>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>Advanced STS Course <em>Credit Hours: 4</em><br/>
+	(See footnote 3 below)</li>
+</ul>
+</div></div><div class="acalog-core"><h2><a name="ThirdYear"></a><a id="core_34902" name="thirdyear"></a>Third Year</h2><hr/><p><em>Note: The third year of this accelerated degree program is the last year in which courses are taken at Rensselaer. As such, students in the accelerated degree program are exempt from the Arch summer semester and away semester experience</em>. </p>
+</div><div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34903" name="fall"></a>Fall</h3><hr/><ul>
+	<li>CAS Course <em>Credit Hours: 4</em></li>
+	<li>Advanced STS Course <em>Credit Hours: 4</em></li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44870',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34903~;}'); return false;">STSO 4980 - Research Design</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>(See footnote 4 below)</p></li></ul></div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34904" name="spring"></a>Spring</h3><hr/><ul>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>CAS Course <em>Credit Hours: 4</em></li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44334',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34904~;}'); return false;">STSO 4990 - STS and Sustainability Senior Project</a> <em>Credit Hours:</em> <em>4</em></span></li></ul></div></div><div class="acalog-core"><h2><a name="FourthYear"></a><a id="core_34905" name="fourthyear"></a>Fourth Year</h2><hr/><p><em>Courses this year will be taken at law school as part of the first-year curriculum of a J.D. and will complete STSO’s B.S. requirements.</em></p>
+</div><div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34906" name="fall"></a>Fall</h3><hr/><ul>
+	<li>Federal Civil Procedure <em>Credit Hours: 4</em></li>
+	<li>Contracts C<em>redit Hours: 3</em></li>
+	<li>Property I <em>Credit Hours: 2</em></li>
+	<li>Torts <em>Credit Hours: 4</em></li>
+	<li>Introduction to Lawyering <em>Credit Hours: 3</em></li>
+</ul>
+</div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34907" name="spring"></a>Spring</h3><hr/><ul>
+	<li>Constitutional Law <em>Credit Hours: 4</em><br/>
+	(Course applied to HASS Core Elective)</li>
+	<li>Criminal Law <em>Credit Hours: 3</em></li>
+	<li>Property II <em>Credit Hours: 4</em></li>
+	<li>Introduction to Lawyering <em>Credit Hours: 3</em></li>
+	<li>Contracts <em>Credit Hours: 2</em></li>
+</ul>
+</div></div><div class="acalog-core"><h2><a name="Footnotes"></a><a id="core_34908" name="footnotes"></a>Footnotes</h2><hr/><ol start="1">
+	<li><em>STSS/STSH 1110 Science, Technology, and Society may be substituted with ITWS 1220 IT and Society.</em></li>
+	<li><em>Intermediate STS course options include STSS 2300 Environment and Society and other STSS or STSH courses at the 2000-level.</em></li>
+	<li><em>Advanced STS Courses include STSH 4510 History of American Technology and other STSS or STSH courses at the 4000-level.</em></li>
+	<li><em>STSS 4980 Research Design is a prerequisite for STSS/STSH 4990 STS and Sustainability Senior Project.</em></li>
+	<li><em>All Rensselaer students must complete a HASS Core. This includes a communication intensive course, a HASS Inquiry course, and a 12-credit integrative pathway. In the case of the Accelerated STSO program (SSLW), students complete 20 credits of their HASS Core requirements at Rensselaer and the final 4 credits at law school through their Constitutional Law course. </em></li>
+	<li><em>All Rensselaer students must complete a 24-credit Science Core. This includes at least 2 mathematics courses (8 credits), such as MATH 1010, MATH 1020, MATH 1500, MATH 1520, or others.</em></li>
+	<li><em>The 16-credit Complementary Area of Study (CAS) provides STSO majors with a depth of understanding from an external field that will inform their STS research and coursework. The CAS courses should come from a single department (not STS). Two courses should be taken at the 4000-level.</em></li>
+</ol>
+
+<p> </p>
+</div></div>													</td>
+												</tr>
+[[<div class="acalog-core"><h2><a name="FirstYear"></a><a id="core_34896" name="firstyear"></a>First Year</h2><hr/></div>, <div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34897" name="fall"></a>Fall</h3><hr/><ul>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44313',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34897~;}'); return false;">STSO 1110 - Science, Technology, and Society</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43961',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34897~;}'); return false;">MATH 1500 - Calculus for Architecture, Management, and HASS</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43959',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34897~;}'); return false;">MATH 1010 - Calculus I</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>(See footnote 6 below)</p></li></ul></div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34898" name="spring"></a>Spring</h3><hr/><ul>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>Intermediate STS course <em>Credit Hours: 4</em><br/>
+	(See footnote 2 below)</li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43962',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34898~;}'); return false;">MATH 1520 - Mathematical Methods in Management and Economics</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '43960',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34898~;}'); return false;">MATH 1020 - Calculus II</a> <em>Credit Hours:</em> <em>4</em></span></li></ul></div></div>], [<div class="acalog-core"><h2><a name="SecondYear"></a><a id="core_34899" name="secondyear"></a>Second Year</h2><hr/></div>, <div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34900" name="fall"></a>Fall</h3><hr/><ul>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>CAS Course <em>Credit Hours: 4</em><br/>
+	(See footnote 7 below)</li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44872',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34900~;}'); return false;">STSO 2100 - Investigating Society</a> <em>Credit Hours:</em> <em>4</em></span></li></ul></div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34901" name="spring"></a>Spring</h3><hr/><ul>
+	<li>CAS Course <em>Credit Hours: 4</em></li>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>Science Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 6 below)</li>
+	<li>Advanced STS Course <em>Credit Hours: 4</em><br/>
+	(See footnote 3 below)</li>
+</ul>
+</div></div>], [<div class="acalog-core"><h2><a name="ThirdYear"></a><a id="core_34902" name="thirdyear"></a>Third Year</h2><hr/><p><em>Note: The third year of this accelerated degree program is the last year in which courses are taken at Rensselaer. As such, students in the accelerated degree program are exempt from the Arch summer semester and away semester experience</em>. </p>
+</div>, <div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34903" name="fall"></a>Fall</h3><hr/><ul>
+	<li>CAS Course <em>Credit Hours: 4</em></li>
+	<li>Advanced STS Course <em>Credit Hours: 4</em></li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44870',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34903~;}'); return false;">STSO 4980 - Research Design</a> <em>Credit Hours:</em> <em>4</em></span></li><li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>(See footnote 4 below)</p></li></ul></div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34904" name="spring"></a>Spring</h3><hr/><ul>
+	<li>HASS Core Elective <em>Credit Hours: 4</em><br/>
+	(See footnote 5 below)</li>
+	<li>CAS Course <em>Credit Hours: 4</em></li>
+</ul>
+<ul><li class="acalog-course"><span><a aria-expanded="false" href="#" onclick="showCourse('22', '44334',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~34904~;}'); return false;">STSO 4990 - STS and Sustainability Senior Project</a> <em>Credit Hours:</em> <em>4</em></span></li></ul></div></div>], [<div class="acalog-core"><h2><a name="FourthYear"></a><a id="core_34905" name="fourthyear"></a>Fourth Year</h2><hr/><p><em>Courses this year will be taken at law school as part of the first-year curriculum of a J.D. and will complete STSO’s B.S. requirements.</em></p>
+</div>, <div class="custom_leftpad_20"><div class="acalog-core"><h3><a name="Fall"></a><a id="core_34906" name="fall"></a>Fall</h3><hr/><ul>
+	<li>Federal Civil Procedure <em>Credit Hours: 4</em></li>
+	<li>Contracts C<em>redit Hours: 3</em></li>
+	<li>Property I <em>Credit Hours: 2</em></li>
+	<li>Torts <em>Credit Hours: 4</em></li>
+	<li>Introduction to Lawyering <em>Credit Hours: 3</em></li>
+</ul>
+</div><div class="acalog-core"><h3><a name="Spring"></a><a id="core_34907" name="spring"></a>Spring</h3><hr/><ul>
+	<li>Constitutional Law <em>Credit Hours: 4</em><br/>
+	(Course applied to HASS Core Elective)</li>
+	<li>Criminal Law <em>Credit Hours: 3</em></li>
+	<li>Property II <em>Credit Hours: 4</em></li>
+	<li>Introduction to Lawyering <em>Credit Hours: 3</em></li>
+	<li>Contracts <em>Credit Hours: 2</em></li>
+</ul>
+</div></div>], []]
+{'options': ' ', 'capstone': ' ', 'transfer_policy': ' ', 'footnotes': <div class="acalog-core"><h2><a name="Footnotes"></a><a id="core_34908" name="footnotes"></a>Footnotes</h2><hr/><ol start="1">
+	<li><em>STSS/STSH 1110 Science, Technology, and Society may be substituted with ITWS 1220 IT and Society.</em></li>
+	<li><em>Intermediate STS course options include STSS 2300 Environment and Society and other STSS or STSH courses at the 2000-level.</em></li>
+	<li><em>Advanced STS Courses include STSH 4510 History of American Technology and other STSS or STSH courses at the 4000-level.</em></li>
+	<li><em>STSS 4980 Research Design is a prerequisite for STSS/STSH 4990 STS and Sustainability Senior Project.</em></li>
+	<li><em>All Rensselaer students must complete a HASS Core. This includes a communication intensive course, a HASS Inquiry course, and a 12-credit integrative pathway. In the case of the Accelerated STSO program (SSLW), students complete 20 credits of their HASS Core requirements at Rensselaer and the final 4 credits at law school through their Constitutional Law course. </em></li>
+	<li><em>All Rensselaer students must complete a 24-credit Science Core. This includes at least 2 mathematics courses (8 credits), such as MATH 1010, MATH 1020, MATH 1500, MATH 1520, or others.</em></li>
+	<li><em>The 16-credit Complementary Area of Study (CAS) provides STSO majors with a depth of understanding from an external field that will inform their STS research and coursework. The CAS courses should come from a single department (not STS). Two courses should be taken at the 4000-level.</em></li>
+</ol>
+
+<p> </p>
+</div>, 'misc': []}
+Aeronautical Engineering Curriculum
+<tr>
+		<td colspan="4">
+			<table class="table_default">
+				<tbody><tr>
+					<td>
+						<div class="help_block"><a class="help acalog-highlight-ignore" href="help.php" onclick="acalogPopup('help.php', 'help', 770, 530, 'yes');return false;" target="_blank"><strong>HELP</strong></a></div>
+	<span class="acalog_catalog_name">Rensselaer Catalog 2021-2022</span>																	<br/>
+	    <h1 id="acalog-content">Aeronautical Engineering Curriculum</h1>
+				<div style="float: right"><a alt="Text Version" class="print_link acalog-highlight-ignore" href="/preview_program.php?catoid=22&amp;poid=5307&amp;hl=%22Aeronautical%22&amp;returnto=search&amp;print" onclick="acalogPopup('/preview_program.php?catoid=22&amp;poid=5307&amp;hl=%22Aeronautical%22&amp;returnto=search&amp;print', 'print_preview', 770, 530, 'yes');return false;" rel="nofollow" target="_blank" title="Print-Friendly Page (opens a new window)"><span class="sr-only">Print-Friendly Page (opens a new window)</span></a></div><div class="acalog-social-media-links float_right"> </div>
+			<div align="left">
+				<a class="portfolio_link acalog-highlight-ignore acalog-icon" href="javascript:void(0)" onclick="acalogPopup('portfolio.php?catoid=22&amp;add=1&amp;poid=5307#programs', 'portfolio', 770, 530, 'yes');return false;" target="_blank" title="Add to Portfolio (opens a new window)">
+				</a>
+			</div>																</td>
+															</tr>
+															<tr>
+																<td>
+																	<hr/>
+																</td>
+															</tr>
+														</tbody></table>
+		<p class="acalog-breadcrumb acalog-highlight-ignore"><img alt="Return to {$returnto_text}" class="return-to" src="/return.gif"/> Return to: <a href="content.php?catoid=22&amp;navoid=542">Programs</a></p><h3>Baccalaureate Programs</h3>
+
+<p>Freshmen or sophomores who have identified aeronautical engineering as their major may follow the baccalaureate program below in lieu of the general core engineering program.  Dual major programs which lead to a single baccalaureate degree embracing two fields are also available and are described in more detail in the MANE Handbook (emailed to you when you declare a major in MANE, and available from the MANE Student Services Office, JEC 2012).</p>
+													</td>
+												</tr>
