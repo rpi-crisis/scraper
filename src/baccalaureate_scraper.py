@@ -127,9 +127,9 @@ def baccalurate_parse_html():
         if baccalaureate[x]["description"] != "NO DESCRIPTION":
             for y in baccalaureate[x]["description"].find_all("p"):
                 if y.get_text() != " Return to: Programs":
-                    inserted_string = y.get_text().replace("\xa0", " ")
-                    inserted_string = inserted_string.replace("\n", " ")
-                    inserted_string = inserted_string.replace("\t", " ")
+                    inserted_string = y.get_text().replace("\xa0", "")
+                    inserted_string = inserted_string.replace("\n", "")
+                    inserted_string = inserted_string.replace("\t", "")
                     baccalaureate_parsed[x]["description"].append(inserted_string)
         yearcounter = 0
         for y in baccalaureate[x]["years"]:
@@ -151,9 +151,9 @@ def baccalurate_parse_html():
                         if "or" == i.get_text():
                             continue
                         else:
-                            inserted_string = i.get_text().replace("\xa0", " ")
-                            inserted_string = inserted_string.replace("\n", " ")
-                            inserted_string = inserted_string.replace("\t", " ")
+                            inserted_string = i.get_text().replace("\xa0", "")
+                            inserted_string = inserted_string.replace("\n", "")
+                            inserted_string = inserted_string.replace("\t", "")
                             footnote_value = " "
                             footnote_found = False
                             credit_hour_found = False
@@ -199,9 +199,9 @@ def baccalurate_parse_html():
                     li_list = baccalaureate[x]["other-content"][y].find_all("li");
                     for z in li_list:
                         #print(z.get_text())
-                        inserted_string = z.get_text().replace("\xa0", " ")
-                        inserted_string = inserted_string.replace("\n", " ")
-                        inserted_string = inserted_string.replace("\t", " ")
+                        inserted_string = z.get_text().replace("\xa0", "")
+                        inserted_string = inserted_string.replace("\n", "")
+                        inserted_string = inserted_string.replace("\t", "")
                         baccalaureate_parsed[x]["other-content"][y].append(inserted_string)
                 except Exception as e:
                     #print(baccalaureate[x]["other-content"][y])
