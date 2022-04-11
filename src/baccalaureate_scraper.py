@@ -1,9 +1,7 @@
-
-from readline import insert_text
 from bs4 import BeautifulSoup
-from numpy import empty
 import requests
 import time
+import re
 
 def baccalurate_grab_html():
     r = requests.get("http://catalog.rpi.edu/content.php?catoid=22&navoid=542")
@@ -68,9 +66,24 @@ def baccalurate_grab_html():
         #if there are no more HTML chunks, then the loop ends
         while(yearlist != None):
             #debug print
-            #print(yearlist)
+            #print(yearlist.h2.a['name'])
             #print(major_title)
+
+            #for SOME reason, ITWS has an extensive amount of major information that needs to be parsed before getting to
+            #each major year, I have to add extra lists to add the HTML information to the mega dictionary.
+            if major_title == "Information Technology and Web Science" and len(baccalaureate[major_title]["years"]) == 5:
+                print("CHECKED!!!")
+                for g in range(6):
+                    baccalaureate[major_title]["years"].append([])
+                for g in range(4, 11):
+                    baccalaureate[major_title]["years"][g].append(yearlist)
+                    yearlist = yearlist.next_sibling
+                    baccalaureate[major_title]["years"][g].append(yearlist)
+                yearlist = yearlist.next_sibling
+                
             
+
+
             #checks to see if there are any extra bits of HTML after getting through the inital 4/5 years.
             if (count > 3 and major_title != "Architecture") or (count > 4 and major_title == "Architecture"):
                 try:
@@ -90,25 +103,27 @@ def baccalurate_grab_html():
                     else:
                         baccalaureate[major_title]["other-content"]["misc"].append(yearlist)
                 except Exception as e:
+                    #print(e)
                     baccalaureate[major_title]["other-content"]["misc"].append(yearlist)
             else:
                 baccalaureate[major_title]["years"][count].append(yearlist)
+                yearcount += 1
+                if yearcount > 1:
+                    yearcount = 0
+                    count += 1
             
             #switches to the next HTML chunk
             yearlist = yearlist.next_sibling
             
             #yearcount increases by 1 until it is 2. If it's greater than 2, yearcount goes to 0 and count increases by 1.
             #this is to ensure that each year gets not only the title HTML, but the information for that year as well.
-            yearcount += 1
-            if yearcount > 1:
-                yearcount = 0
-                count += 1
+            
 
 def baccalurate_parse_html():
     for x in baccalaureate:
-        print(x)
-        print("------------------------")
-        print(baccalaureate[x]["description"])
+        #print(x)
+        #print("------------------------")
+        #print(baccalaureate[x]["description"])
         if baccalaureate[x]["description"] != "NO DESCRIPTION":
             for y in baccalaureate[x]["description"].find_all("p"):
                 if y.get_text() != " Return to: Programs":
@@ -175,18 +190,22 @@ def baccalurate_parse_html():
         #print("------------------")
         for y in baccalaureate[x]["other-content"]:
             if len(baccalaureate[x]["other-content"][y]) == 0 or baccalaureate[x]["other-content"][y] == " ":
-                print(" ")
+                print("NO CONTENT HERE")
             else:
                 #print(y)
-                print("---------------------------------")
-                print(baccalaureate[x]["other-content"][y])
+                #print("---------------------------------")
+                #print(baccalaureate[x]["other-content"][y])
                 try:
                     li_list = baccalaureate[x]["other-content"][y].find_all("li");
                     for z in li_list:
                         #print(z.get_text())
-                        baccalaureate_parsed[x]["other-content"][y].append(z.get_text())
-                except:
-                    print(baccalaureate[x]["other-content"][y])
+                        inserted_string = z.get_text().replace("\xa0", " ")
+                        inserted_string = inserted_string.replace("\n", " ")
+                        inserted_string = inserted_string.replace("\t", " ")
+                        baccalaureate_parsed[x]["other-content"][y].append(inserted_string)
+                except Exception as e:
+                    #print(baccalaureate[x]["other-content"][y])
+                    print(e)
                 #print(li_list)
             #print("--------------------")
         
@@ -198,11 +217,14 @@ baccalaureate_parsed = {}
 baccalurate_grab_html()
 baccalurate_parse_html()
 
-for x in baccalaureate_parsed:
-    print(x)
-    print("----------")
-    print(baccalaureate_parsed[x])
-    print("-------------------------------------------------")
+print(baccalaureate["Information Technology and Web Science"]["years"])
+print("-------------------------------------")
+print(baccalaureate_parsed["Information Technology and Web Science"])
+#for x in baccalaureate_parsed:
+#    print(x)
+#    print("----------")
+#    print(baccalaureate_parsed[x])
+#    print("-------------------------------------------------")
 
 #runtime (DEBUG)
 print(time.time() - time_start)
