@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup as bs
 import json
 import re
 import time
+import os
 
 # Do you want to output the time it took for the operations to complete
 timeit = True
@@ -21,7 +22,9 @@ debug = True
 # output will be redirected to 'sis_courses_TEST.json' if True
 small_search = False
 
+os.makedirs('data/', exist_ok=True)
 output_file = 'sis_courses_TEST.json' if small_search else 'sis_courses_data.json'
+output_file = 'data/' + output_file
 
 host = "https://sis.rpi.edu"
 url_pre = '/rss/bwckctlg.p_display_courses?term_in='
@@ -83,7 +86,7 @@ def fetch_course_links(year, term):
             # if the course has a link, store the link and description in a dictionary
             if class_info.a:
                 classes_links_dict[class_title.a.text] = [host+class_info.a['href'], desc]
-        
+
         return classes_links_dict
 
 

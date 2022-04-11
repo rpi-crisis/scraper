@@ -1,4 +1,4 @@
-from itertools import count
+
 from readline import insert_text
 from bs4 import BeautifulSoup
 from numpy import empty
@@ -17,11 +17,11 @@ def baccalurate_grab_html():
         major_title = z.text.strip()
         major_link = z.get('href')
         
-        #defining the inner values of the mega dictionary
-        baccalaureate_parsed[major_title] = {"description": " ", "requirements": " ", 
+        #defining the inner values of the mega dictionaries
+        baccalaureate_parsed[major_title] = {"description": [], 
         "years": [[], [], [], [], []], 
         "other-content": {}}
-        baccalaureate_parsed[major_title]["other-content"] = {"options": " ", "capstone": " ", "transfer_policy": " ", "footnotes": " ", "misc": []}
+        baccalaureate_parsed[major_title]["other-content"] = {"options": " ", "capstone": " ", "transfer_policy": " ", "footnotes": [], "misc": []}
 
         baccalaureate[major_title] = {"description": " ", "requirements": " ", 
         "years": [[], [], [], [], []], 
@@ -37,7 +37,19 @@ def baccalurate_grab_html():
         major_table_def = major_table.find("table", class_="table_default")
         trs = major_table_def.find_all("tr")
         description_tr = trs[0]
-        requirement_tr = trs[3]
+        #print(description_tr.get_text())
+        #print(description_tr.get_text().find("Return to: Programs"))
+        #print(description_tr.get_text()[description_tr.get_text().find("Return to: Programs") + 19])
+        if description_tr.get_text()[description_tr.get_text().find("Return to: Programs") + 19].isalpha():
+            description_tr = description_tr
+        else:
+            description_tr = "NO DESCRIPTION"
+        #print(description_tr)
+        #print("-------------------------------")
+        if major_title == "Architecture":
+            requirement_tr = trs[4]
+        else:
+            requirement_tr = trs[3]
         baccalaureate[major_title]["description"] = description_tr
         baccalaureate[major_title]["requirements"] = requirement_tr  
         
@@ -94,7 +106,16 @@ def baccalurate_grab_html():
 
 def baccalurate_parse_html():
     for x in baccalaureate:
-        baccalaureate_parsed[x]["description"] = baccalaureate[x]["description"].find_all("p")[1].string
+        print(x)
+        print("------------------------")
+        print(baccalaureate[x]["description"])
+        if baccalaureate[x]["description"] != "NO DESCRIPTION":
+            for y in baccalaureate[x]["description"].find_all("p"):
+                if y.get_text() != " Return to: Programs":
+                    inserted_string = y.get_text().replace("\xa0", " ")
+                    inserted_string = inserted_string.replace("\n", " ")
+                    inserted_string = inserted_string.replace("\t", " ")
+                    baccalaureate_parsed[x]["description"].append(inserted_string)
         yearcounter = 0
         for y in baccalaureate[x]["years"]:
             try:
@@ -154,11 +175,21 @@ def baccalurate_parse_html():
         #print("------------------")
         for y in baccalaureate[x]["other-content"]:
             if len(baccalaureate[x]["other-content"][y]) == 0 or baccalaureate[x]["other-content"][y] == " ":
-                print("empty")
+                print(" ")
             else:
+                #print(y)
+                print("---------------------------------")
                 print(baccalaureate[x]["other-content"][y])
-            print("--------------------")
-        break
+                try:
+                    li_list = baccalaureate[x]["other-content"][y].find_all("li");
+                    for z in li_list:
+                        #print(z.get_text())
+                        baccalaureate_parsed[x]["other-content"][y].append(z.get_text())
+                except:
+                    print(baccalaureate[x]["other-content"][y])
+                #print(li_list)
+            #print("--------------------")
+        
 
 #printing all the information in the mass dictionary (DEBUG)
 time_start = time.time()
@@ -166,7 +197,12 @@ baccalaureate = {}
 baccalaureate_parsed = {}
 baccalurate_grab_html()
 baccalurate_parse_html()
-        
+
+for x in baccalaureate_parsed:
+    print(x)
+    print("----------")
+    print(baccalaureate_parsed[x])
+    print("-------------------------------------------------")
 
 #runtime (DEBUG)
 print(time.time() - time_start)
